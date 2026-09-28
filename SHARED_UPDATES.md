@@ -64,50 +64,45 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-27 17:20 SAST (Printables Repo agent)
+Last updated: 2026-09-27 18:05 SAST (Claude, same-day follow-up run)
 
 ### Done today
 - First daily log: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md). Day 1 of the 30-day plan, with a full spec for product #1 (Shift Handover Sheet) and outlines for the Weekly Team Check-in Sheet and One-on-One Meeting Template.
 - Shift Handover Sheet built and rebranded to leadershipbydesign.co (navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display and Source Sans 3). A4 and US Letter PDFs are in `products/shift-handover-sheet/`. The shop icon, banner, 4 listing images and shop copy are in `etsy/`.
 - Etsy shop name set: LBDShopSA (Leadership by Design account). `docs/ETSY_SETUP_CHECKLIST.md` and `docs/CLAUDE_DAILY_PROMPT.md` are in the repo.
+- Claude did today's 3 "Instructions for Claude and ChatGPT" tasks (below), all logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md) (new sections at the bottom) and [`logs/research-etsy-demand.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/research-etsy-demand.md): (1) live Etsy demand check across the 5 target search terms, (2) an improved title/tags/description for the Shift Handover Sheet listing, (3) full page-by-page copy for the One-on-One Meeting Template.
+- Headline finding: the One-on-One Meeting Template search term is the only one of the five with a proven, reviewed top-3 seller (11 reviews) — best next product to finish. "Shift planner printable" pulls the wrong audience (personal night-shift planners, not team-leader tools) and should be dropped as a tag.
 
 ### Next up
+- Build the One-on-One Meeting Template in Canva from the copy in `logs/2026-09-27.md` (highest-demand product per today's research).
 - Draft the Weekly Team Check-in Sheet as a paste-ready Etsy listing in the `docs/ETSY_SETUP_CHECKLIST.md` format, in the new brand.
 - Make the build scripts runnable from the repo alone (they currently depend on fonts and brand images kept outside the repo).
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
-- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line)
+- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line — note Claude drafted the improved title/tags/description critique in `logs/2026-09-27.md` today, so if that critique is used, the answer is yes)
+- [KEVIN] Use the improved title/13 tags/description opening Claude drafted today for the Shift Handover Sheet listing, or keep the current `etsy/SHOP_COPY.md` version? (yes to swap / no to keep)
 
 ### Instructions for Claude and ChatGPT
-1. Etsy demand check. Search Etsy for "shift handover template", "team check in template", "one on one meeting template", "shift planner printable" and "toolbox talk template". For each, report the approximate result count, the price range of the top 10 listings, and the review count of the top 3. Output a markdown table with columns Search term, Results, Price range (USD), Top 3 review counts, and one line of recommendation. Save it as `logs/research-etsy-demand.md`.
-2. Critique the Shift Handover Sheet listing. Read `etsy/SHOP_COPY.md` and `docs/ETSY_SETUP_CHECKLIST.md`, then propose an improved Etsy title (140 characters or fewer), 13 tags (20 characters or fewer each) and the first 160 characters of the description, optimised for Etsy search. Output as three labelled blocks, plus one sentence on why each change helps.
-3. Draft the One-on-One Meeting Template copy. Write the printed text for a 2-page A4 layout: page 1 is the meeting sheet (employee agenda first, Workload/Energy/Clarity 1-5 check, feedback both ways, one growth skill, actions table) and page 2 is a 12-month tracker. Output as markdown with a heading per page and one bullet per field label, ready to lay out.
+None today. Tomorrow: once Kevin answers the [KEVIN] questions above, the next useful task is turning the One-on-One Meeting Template copy into a paste-ready Etsy listing (title/tags/description, same format as `etsy/SHOP_COPY.md`), the same way item 2 above was done for the Shift Handover Sheet.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-27 17:15 SAST (Grok Bot, Day 1 daily run; work is in commit 913ef27)
+Last updated: 2026-09-28 06:35 SAST (Grok Bot, Day 2 daily run + Monday weekly metrics)
 
 ### Done today
-- Repo scaffolded: README plan, 3 prompts, `scripts/run_prompts.py` and the daily workflow.
-- Day 1 of the 30-day plan logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-27.md).
-- Do-not-generate list written (real people, brands and logos, artists' styles, protected landmarks, copyrighted characters, fake news events, readable text, careless use of religious symbols).
-- 36 prompts drafted, each theme with a title template and an ordered keyword list, across 3 themes: holiday backgrounds with copy space; New Year and Q1 planning with no identifiable people; evergreen abstract textures.
-- README handoff section added for Claude, ChatGPT or any agent picking this up.
-- Daily 06:29 SAST agent run set up (this agent). The repo's 06:17 SAST GitHub Action skips because there's no API key, by design.
+- Day 2 of the 30-day plan logged in [`logs/2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-28.md): progress check, next-content batch, and first weekly metrics review (Monday).
+- New niche-themed batch of 36 image prompts (titles + keywords + AI disclosure notes): Diwali/late-autumn festive still-life; soft wedding/engagement still-life (no people); material-specific textures (terrazzo, marble, linen). Chosen from Day 1 theme validation niches, not repeats of Day 1's broad holiday/Q1/abstract lists.
+- Weekly metrics review: all upload/acceptance/download/earnings figures are unknown (none in the repo yet). Recommendation: **adjust**. Keep the project, stop inventing more theme batches until Kevin creates the Adobe account and approves a generator.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
-- Live demand validation in Adobe Stock search for the 3 themes (result counts, what's already saturated).
-- Days 2 to 3: generate candidates from the 36 prompts once a generator exists, then curate, upscale and QA.
-- Monday 28 Sep: the weekly metrics review (`prompts/weekly-metrics-review.md`).
+- **[KEVIN]** Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal)? (yes started / not yet)
+- **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
+- **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
+- Once both account and generator exist: generate a pilot of ~30 keepers from the lowest-saturation niches (Diwali, wooden-blocks growth, terrazzo/marble/linen), then curate, upscale, QA and upload with the generative-AI box ticked on every file.
 
 ### Instructions for Claude and ChatGPT
-Read the README and `logs/2026-09-27.md` first. Don't sign up for anything, buy anything or upload anything. Mark anything that needs Kevin with **[KEVIN]**.
-- **(a) Theme validation.** Check the 3 themes against current Adobe Stock search results. Return a table with the columns theme, sample search term, rough result count and competition note. Save it as `from-cto-new/theme-validation-YYYY-MM-DD.md`.
-- **(b) Generator and upscaler comparison.** Compare 3 to 5 image generators and upscalers on commercial stock-resale licence terms, monthly cost in ZAR and max resolution. Return a table plus one recommendation for Kevin. No sign-ups or purchases.
-- **(c) Adobe Stock AI rules.** Check Adobe Stock's current generative AI contributor rules (the disclosure checkbox, title rules and keyword rules). Summarise them in 5 to 10 bullets with source links.
-- **(d) Missing research file.** The README cites `blackvault/new-income-ideas-2026-09-27.md`, which isn't in the repo. Ask Kevin to add it to `from-cto-new/` or confirm it isn't needed.
-
-**Decisions only Kevin can make [KEVIN]:**
-- Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal). Nothing can be uploaded until it exists.
-- Approve R400 to R800 a month for an image generator, once its licence is confirmed to allow commercial stock resale.
+1. **Firefly stock-resale confirmation.** Check Adobe Firefly's current terms of use for whether outputs may be submitted to Adobe Stock for commercial licensing/resale. Return a short answer (yes / no / unclear) plus 3 to 5 quoted bullets with source URLs. Save as `from-cto-new/firefly-stock-resale-2026-09-28.md`. Do not sign up or buy anything.
+2. **Pilot prompt shortlist.** From `logs/2026-09-27.md` and `logs/2026-09-28.md`, pick the 10 best niche prompts for a first generation pilot (prefer Diwali, wooden-blocks growth, terrazzo/marble/linen). Output a numbered list with prompt text, title template and the first 10 keywords each. Save as `from-cto-new/pilot-prompt-shortlist-2026-09-28.md`.
+3. **Contributor setup checklist.** Write a one-page Adobe Stock Contributor setup checklist for a South African individual (account, ID verify, W-8BEN, PayPal, first-upload AI disclosure). Bullet list with official Adobe help links. Save as `docs/adobe-contributor-setup.md`.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-09-27 17:15 SAST (Grok Bot)
@@ -137,7 +132,7 @@ Decisions for Kevin: add the original story to `assets/story/` with identifying 
 Safety: Never include the child's face, real name details, school, location or other identifying details.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-27 17:14 SAST (Faceless YouTube Repo agent, new brief format)
+Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief format)
 
 ### Done today
 - Niche locked by Kevin: narrated Princess Baylin bedtime stories, made for kids, equal weight with princess-baylin.
