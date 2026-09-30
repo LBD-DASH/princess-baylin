@@ -113,13 +113,14 @@ Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-30 09:23 SAST (Kevin, recorded by Princess Baylin agent)
+Last updated: 2026-09-30 15:10 SAST (Princess Baylin agent, second run)
 
 ### Done today
 - YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
 - Day 4 log at logs/2026-09-30.md: progress check; light Ep 2 picture-book refine; first Ep 3 ~12-spread manuscript; 5 merch concepts (no weekly metrics; not Monday).
-- Confirmed docs/character-sheet-draft.md is now on main (Baylin, Tilly, Rainbird). Sleepy Moon and Quiet Star still need rows on that sheet.
+- docs/character-sheet-draft.md now has Sleepy Moon and Quiet Star rows (appearance, catchphrase, gentle flaw), matching the Baylin/Tilly/Rainbird format. All five named cast members now on the sheet.
 - reviews/2026-09-29-language.md: non-native read-through of the 2026-09-29 Ep 1 refine + Ep 2 AF/ZU spreads (8 Afrikaans + 4 isiZulu items flagged). Not a native-speaker check.
+- reviews/2026-09-30-language.md: non-native read-through of the Ep 2 refine + new Ep 3 AF/ZU spreads (5 Afrikaans + 4 isiZulu items flagged, including a recurring "mid cue" / "cameo" loanword pattern worth one consistent decision). Not a native-speaker check.
 - Pipeline equal-priority wording already present; no Pipeline edit needed.
 - assets/story/ still missing the original story (404).
 - Closed: the owl is named Bonayo (English and Afrikaans Bonayo; isiZulu uBonayo). The "owl unnamed" decision is closed. Recorded in CLAUDE.md canon cast. No unnamed-owl wording was present in this repo's episode scripts, manuscripts, or handoff/youtube files.
@@ -133,17 +134,16 @@ Last updated: 2026-09-30 09:23 SAST (Kevin, recorded by Princess Baylin agent)
 
 ### Next up
 - Keep refining Ep 1–3 manuscripts once placeholders are confirmed or replaced.
-- Add Sleepy Moon and Quiet Star to the character sheet (Claude/ChatGPT task below).
 - [KEVIN] Add the original story to assets/story/ with identifying details removed? (yes this week / not yet)
 - [KEVIN] Keep placeholder names Tilly, Sunhill and Rainbird, or replace them? (keep / replace)
 - [KEVIN] Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
+- docs/kdp-specs.md and logs/research-merch-pricing-2026-09-30.md are still outstanding — blocked again this run because WebFetch/WebSearch were not authorized in this session (same block as 28 and 29 Sep). Need a run with web tools approved, or Kevin can paste the KDP Help page text / Etsy listing links directly.
 - YouTube agent: Episodes 1 to 3 are approved. Channel is live at https://www.youtube.com/@PrincessBaylinDiaries (made for kids). Use Bonayo, the locked narrator, the locked art style, three dedicated language voices, and the exact AI disclosure line (see the 2026-09-30 09:23 SAST cross-project note and handoff/youtube/TEMPLATE.md).
 
 ### Instructions for Claude and ChatGPT
-1. **Extend character sheet.** Update docs/character-sheet-draft.md to add Sleepy Moon and Quiet Star (appearance, catchphrase, one gentle flaw) using the same format as Baylin/Tilly/Rainbird. Keep illustrated characters only; no real child likeness. Save that exact path.
-2. **KDP trim checklist (still needed if missing).** Using official Amazon KDP Help pages, write docs/kdp-specs.md: recommended trim sizes for a ~24–32 page picture book with bleed, bleed/safe-margin numbers, and clickable official source links. Keep under one page. Skip if that file already exists on main with real official links.
-3. **Merch pricing sanity check.** For the five merch concepts in logs/2026-09-30.md, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as logs/research-merch-pricing-2026-09-30.md.
-4. **AF/ZU non-native read-through.** Skim Ep 2 refine + Ep 3 AF/ZU spreads in logs/2026-09-30.md; list up to 8 phrases that look unnatural for a real native check later. Save as reviews/2026-09-30-language.md. Do not claim a native-speaker check was done.
+1. **KDP trim checklist (still needed).** Using official Amazon KDP Help pages, write docs/kdp-specs.md: recommended trim sizes for a ~24–32 page picture book with bleed, bleed/safe-margin numbers, and clickable official source links. Keep under one page. (Carried over: blocked again today by no web access.)
+2. **Merch pricing sanity check.** For the five merch concepts in logs/2026-09-30.md, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as logs/research-merch-pricing-2026-09-30.md. (Carried over: blocked again today by no web access.)
+3. Character sheet (all five cast members) and both 29/30 Sep language read-throughs are done and on main — no need to redo any of them.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
