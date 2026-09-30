@@ -28,3 +28,16 @@
 - Keep YardOps, Six Human Needs and Leadership by Design out of this repo.
 - Never use em dashes in files you write.
 - End each run with a five-line summary: what you did, files changed, commits pushed, decisions needed from Kevin, tomorrow's plan.
+
+## Canon cast
+
+Kevin confirmed these names on 2026-09-30 SAST. Illustrated characters only. No child's face, real name details, school, or location.
+
+- **Bonayo** (the owl). English: Bonayo. Afrikaans: Bonayo. isiZulu: uBonayo. Do not leave this owl unnamed, and do not use another owl name. Afrikaans and isiZulu lines that use the name still need a native-speaker check before anything is published. Keep existing NEEDS NATIVE-SPEAKER CHECK flags.
+
+## Decisions (Kevin, 2026-09-30 SAST)
+
+1. The owl is named Bonayo (isiZulu: uBonayo). English and Afrikaans use Bonayo.
+2. The YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title.
+3. Episodes 1 to 3 are approved: Lost Rain Song, Sleepy Moon, and Quiet Star.
+4. Voices: three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. This applies to Episodes 1 to 3 and all future episodes.
