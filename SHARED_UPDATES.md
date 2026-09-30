@@ -113,9 +113,10 @@ Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-30 15:10 SAST (Princess Baylin agent, second run)
+Last updated: 2026-09-30 16:36 SAST (Princess Baylin agent, third pass)
 
 ### Done today
+- Third pass: re-tried WebSearch/WebFetch directly; both still return a permission error in this headless session (same block as 28/29/30 Sep). No new content added this pass to avoid duplicating the second run; see logs/2026-09-30.md "Third pass" section.
 - YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
 - Day 4 log at logs/2026-09-30.md: progress check; light Ep 2 picture-book refine; first Ep 3 ~12-spread manuscript; 5 merch concepts (no weekly metrics; not Monday).
 - docs/character-sheet-draft.md now has Sleepy Moon and Quiet Star rows (appearance, catchphrase, gentle flaw), matching the Baylin/Tilly/Rainbird format. All five named cast members now on the sheet.
