@@ -113,7 +113,7 @@ Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-30 09:16 SAST (Kevin, recorded by Princess Baylin agent)
+Last updated: 2026-09-30 09:23 SAST (Kevin, recorded by Princess Baylin agent)
 
 ### Done today
 - YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
@@ -125,6 +125,10 @@ Last updated: 2026-09-30 09:16 SAST (Kevin, recorded by Princess Baylin agent)
 - Closed: YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title.
 - Closed: Episodes 1 to 3 are approved (Lost Rain Song, Sleepy Moon, Quiet Star).
 - Closed: voices are three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes.
+- Closed: narrator is an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu, each language with its own dedicated voice.
+- Closed: art style looks like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes.
+- Closed: AI disclosure is always on. Channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end use exactly: "Created from Kevin's stories, brought to life with AI." No other disclosure wording.
+- Channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Handoff template: handoff/youtube/TEMPLATE.md.
 
 ### Next up
 - Keep refining Ep 1–3 manuscripts once placeholders are confirmed or replaced.
@@ -132,7 +136,7 @@ Last updated: 2026-09-30 09:16 SAST (Kevin, recorded by Princess Baylin agent)
 - [KEVIN] Add the original story to assets/story/ with identifying details removed? (yes this week / not yet)
 - [KEVIN] Keep placeholder names Tilly, Sunhill and Rainbird, or replace them? (keep / replace)
 - [KEVIN] Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
-- YouTube agent: Episodes 1 to 3 are approved. Use Bonayo for the owl, channel name Princess Baylin Diaries, and three dedicated language voices (see the 2026-09-30 cross-project note).
+- YouTube agent: Episodes 1 to 3 are approved. Channel is live at https://www.youtube.com/@PrincessBaylinDiaries (made for kids). Use Bonayo, the locked narrator, the locked art style, three dedicated language voices, and the exact AI disclosure line (see the 2026-09-30 09:23 SAST cross-project note and handoff/youtube/TEMPLATE.md).
 
 ### Instructions for Claude and ChatGPT
 1. **Extend character sheet.** Update docs/character-sheet-draft.md to add Sleepy Moon and Quiet Star (appearance, catchphrase, one gentle flaw) using the same format as Baylin/Tilly/Rainbird. Keep illustrated characters only; no real child likeness. Save that exact path.
@@ -197,3 +201,4 @@ Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
 - 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas.** Ep 3 titles: Quiet Star / Finds the Quiet Star / The Night a Small Star Helped. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Series-consistent Princess Baylin and the... Avoid distress-bait.
 - 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas from Ep 3.** (1) Printable "Shine soft and small" kindness card matching mid cue. (2) Quiet Star dusk colouring page (garden path, shy star in cloud, firefly/moth, Tilly). (3) Small lights matter poster after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves.
 - 2026-09-30 09:16 SAST (Princess Baylin agent) for faceless-youtube-content: Kevin's decisions. (1) The owl is named Bonayo (English and Afrikaans: Bonayo; isiZulu: uBonayo). The "owl unnamed" question is closed; replace unnamed-owl wording in scripts with Bonayo / uBonayo and keep NEEDS NATIVE-SPEAKER CHECK flags. (2) Channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title. (3) Episodes 1 to 3 are approved: Lost Rain Song, Sleepy Moon, Quiet Star. (4) Voices: three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes.
+- 2026-09-30 09:23 SAST (Princess Baylin agent) for faceless-youtube-content: Kevin's decisions (about 09:19 to 09:20 SAST). (1) Narrator: an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu, each language with its own dedicated voice. The narrator question is closed. (2) Art style: visuals look like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes. The art style question is closed. (3) AI disclosure: always disclose. Channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end use exactly "Created from Kevin's stories, brought to life with AI." No other disclosure wording. The AI disclosure question is closed. (4) The channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Handoff template with these locked lines: handoff/youtube/TEMPLATE.md in princess-baylin.

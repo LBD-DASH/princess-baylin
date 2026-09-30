@@ -8,7 +8,7 @@
 1. `SHARED_UPDATES.md` (the whole file), then `README.md`, `docs/` if present and the newest file in `logs/`.
 2. If your section in `SHARED_UPDATES.md` lists anything under "Instructions for Claude and ChatGPT" that you can do inside this repo, do that first.
 3. For the sync rule and merge steps, follow "Sync rule (for the repo agents)" in `SHARED_UPDATES.md`. The sister repos are cloned at `~/shift-leadership-printables`, `~/ai-stock-images`, `~/princess-baylin` and `~/faceless-youtube-content`.
-4. The original story is canon. Each run writes a handoff for the YouTube channel at `handoff/youtube/YYYY-MM-DD.md` (see the Pipeline section in `SHARED_UPDATES.md`). No identifying details about the child. Afrikaans and isiZulu text needs a native-speaker check before anything is published.
+4. The original story is canon. Each run writes a handoff for the YouTube channel at `handoff/youtube/YYYY-MM-DD.md` (see the Pipeline section in `SHARED_UPDATES.md` and `handoff/youtube/TEMPLATE.md`). Narrator, art style, voices, and the AI disclosure line in that template are locked. No identifying details about the child. Afrikaans and isiZulu text needs a native-speaker check before anything is published. Do not write any email address into this repo.
 
 **Updating SHARED_UPDATES.md:**
 - Edit only this repo's own section. Notes for other projects go under "Cross-project notes".
@@ -41,3 +41,8 @@ Kevin confirmed these names on 2026-09-30 SAST. Illustrated characters only. No 
 2. The YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title.
 3. Episodes 1 to 3 are approved: Lost Rain Song, Sleepy Moon, and Quiet Star.
 4. Voices: three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. This applies to Episodes 1 to 3 and all future episodes.
+5. Narrator (about 09:19 SAST): an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu. Each language still has its own dedicated voice.
+6. Art style (about 09:19 SAST): the visuals look like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes.
+7. AI disclosure (about 09:20 SAST): always disclose. The channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end all use exactly: "Created from Kevin's stories, brought to life with AI." Use only this wording. No other disclosure variants.
+
+The YouTube channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Do not write any email address into this repo.
