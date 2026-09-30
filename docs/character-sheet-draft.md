@@ -20,6 +20,18 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Gentle flaw: forgetful, needs help from others to remember the whole song.
 - Role: holds the piece of the puzzle nobody else can supply alone.
 
+## Sleepy Moon
+- Appearance: a soft crescent moon with a gentle, round face; silver-grey glow with warm lamp-gold edges; slow blinking eyes.
+- Catchphrase: "Wait... soft and slow."
+- Gentle flaw: fights sleep by staying too busy watching the world, needs company to settle down.
+- Role: night-sky friend who teaches Baylin that some things cannot be hurried.
+
+## Quiet Star
+- Appearance: a small, shy point of light that hides behind clouds; soft pale-gold glow, dimmer than the bright stars around it.
+- Catchphrase: "Shine... soft and small."
+- Gentle flaw: doubts that its small light is enough to matter or help anyone.
+- Role: night-sky friend who shows that small, quiet light can still guide someone home.
+
 ## Shared colour palette (placeholder, pending a visual style guide)
 - Warm gold: #E8B94C
 - Soft sky blue: #A9C9D6
