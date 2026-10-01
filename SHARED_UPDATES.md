@@ -112,26 +112,27 @@ Last updated: 2026-10-01 06:33 SAST (AI Stock Images Repo agent)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-01 06:50 SAST (Grok Bot / Princess Baylin daily automation, Day 5 morning refine)
+Last updated: 2026-10-01 19:30 SAST (Claude Code daily agent, Day 5 evening pass)
 
 ### Done today
-- Overnight Day 5 draft already on main before this morning pass: Episode 4 YouTube handoff, first Ep 4 ~12-spread manuscript, 5 Ep 4 merch concepts, Pip character-sheet row, `docs/series-bible-draft.md` stopgap, `docs/kdp-specs.md`, `logs/research-merch-pricing-2026-10-01.md`, `reviews/2026-10-01-language.md`. See [`logs/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-01.md).
-- Grok Bot morning refine (~06:48 SAST): updated [`handoff/youtube/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-01.md) so locked TEMPLATE fields are in-file (channel Princess Baylin Diaries, narrator old wise man, dedicated EN/AF/ZU voices, AI disclosure "Created from Kevin's stories, brought to life with AI.", art style like an old man drawing for his granddaughter). Story beats unchanged. Episode 4 = River That Whispered / making amends / daytime riverbank / Pip the river fish. Not yet Kevin-approved like Episodes 1-3.
-- Pipeline equal-priority wording already present; no Pipeline edit this run. Confirmed Kevin's 27 Sep 2026 equal-priority call is already in Cross-project notes.
-- Merged SHARED_UPDATES from all four repos (GitHub) and writing this file back to all four via cloud agents.
+- Overnight Day 5 draft: Episode 4 YouTube handoff, first Ep 4 ~12-spread manuscript, 5 Ep 4 merch concepts, Pip character-sheet row, `docs/series-bible-draft.md` stopgap, `docs/kdp-specs.md`, `logs/research-merch-pricing-2026-10-01.md`, `reviews/2026-10-01-language.md`.
+- Grok Bot morning refine (~06:48 SAST): TEMPLATE-locked fields folded into [`handoff/youtube/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-01.md) (channel, narrator, EN/AF/ZU voices, AI disclosure, art style). Story beats unchanged.
+- A full Episode 1 picture-book build landed on main today (not this agent's work, credited in its own commits): [`book/ep1-lost-rain-song/`](https://github.com/LBD-DASH/princess-baylin/tree/main/book/ep1-lost-rain-song) with English text, AF/ZU translations (each flagged NEEDS NATIVE-SPEAKER CHECK with an inline "lines to check" table), extracted art, a build script, KDP-ready interior/cover PDFs and an Etsy screen PDF, a KDP-readiness doc, and a draft Etsy listing. Nothing listed, published or uploaded anywhere.
+- Evening pass (this agent, see [`logs/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-01.md)): added a missing `docs/character-sheet-draft.md` row for Bonayo the owl (confirmed canon since 2026-09-30 but had no row, unlike the rest of the cast); fixed em dash usage in `docs/series-bible-draft.md` per this repo's style rule; checked the repo for stray email addresses (none found). Could not extend the KDP book-build pipeline to Episodes 2 or 3 from this environment: no rendered video exists here to extract art frames from (Ep1's build used video frames produced elsewhere).
 - `assets/story/` still missing (only `assets/.gitkeep`). No weekly metrics (Thursday). Drafts only; nothing published; no money spent.
 
 ### Next up
-- YouTube agent: build Episode 4 script from the refined handoff at `handoff/youtube/2026-10-01.md`; flag as pending Kevin approval (Episodes 1-3 remain approved).
+- YouTube agent: build Episode 4 script from the refined handoff at `handoff/youtube/2026-10-01.md` (already done on the faceless-youtube-content side today, per their section below).
 - **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? Now past the Day 1-5 series-bible window. (yes this week / not yet)
 - **[KEVIN]** Keep placeholder names Tilly, Sunhill, Rainbird and Pip the River Fish, or replace them? (keep / replace)
 - **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
 - **[KEVIN]** Language format for YouTube: English first, or Afrikaans/isiZulu in parallel after native check? (EN first / parallel later)
 - **[KEVIN]** Approve Episode 4 (River That Whispered / making amends) the way Episodes 1-3 were approved? (yes / changes needed)
+- **[KEVIN]** Review `book/ep1-lost-rain-song/` (manuscript, KDP readiness, Etsy draft, price estimates) and the open questions in its README before anything is uploaded?
 - Replace `docs/series-bible-draft.md` with a real series bible once the original story lands.
 
 ### Instructions for Claude and ChatGPT
-None today. Overnight Day 5 closed the two carried-over items (KDP trim checklist, merch pricing). Morning pass was TEMPLATE handoff refine + four-repo SHARED_UPDATES sync only.
+None today.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-10-01 06:48 SAST (Faceless YouTube Repo agent, Day 5)
@@ -204,3 +205,4 @@ Last updated: 2026-10-01 06:48 SAST (Faceless YouTube Repo agent, Day 5)
 - 2026-10-01 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas from Ep 4.** (1) Printable "Mend soft and true" kindness card matching mid cue. (2) River colouring page with Pip (sunlit reeds, pebble home, Baylin kneeling, Tilly on the bank). (3) True-sorry poster ("A true sorry has hands that help") after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves.
 - 2026-10-01 06:50 SAST (Grok Bot, princess-baylin) for faceless-youtube-content: Episode 4 handoff at `handoff/youtube/2026-10-01.md` was refined this morning to include locked TEMPLATE production fields (narrator, dedicated EN/AF/ZU voices, AI disclosure, art style, channel). Story beats unchanged from overnight Day 5. Please script Ep 4 from this refined handoff and flag it pending Kevin approval.
 - 2026-10-01 06:50 SAST (Grok Bot, princess-baylin): Merged SHARED_UPDATES across all four repos via GitHub API this morning; rewriting Princess Baylin section and pushing the merged file to all four repos on main via cloud agents (prior Day 5 note said sibling pushes were blocked). Pipeline equal-priority line already present; no Pipeline edit.
+- 2026-10-01 19:30 SAST (Claude Code, princess-baylin agent): Same sandboxing prior agents hit again this run: cross-repo `git` in the three sibling repos' local directories required approval not grantable in this session, so could not pull their latest sections or push this merged file out to them. Only updated this repo's own section and pushed to princess-baylin's `origin/main`. Each sibling repo's own next run should pull this copy from princess-baylin's `origin/main` to pick up the evening-pass update.
