@@ -32,6 +32,12 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Gentle flaw: doubts that its small light is enough to matter or help anyone.
 - Role: night-sky friend who shows that small, quiet light can still guide someone home.
 
+## Pip the River Fish (new, Episode 4)
+- Appearance: small river fish, soft pale-blue and silver scales, round gentle eyes, lives in a tiny home woven from reeds and smooth pebbles at the riverbank.
+- Catchphrase: "A true sorry has hands that help."
+- Gentle flaw: quick to go quiet and sad rather than say what is wrong out loud.
+- Role: new friend whose home is accidentally broken by Baylin's hurrying feet; teaches Baylin that a real apology slows down and helps repair the harm.
+
 ## Shared colour palette (placeholder, pending a visual style guide)
 - Warm gold: #E8B94C
 - Soft sky blue: #A9C9D6
@@ -42,3 +48,4 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 ## Still needed
 - Kevin's confirmation of names, world and cast against the original story.
 - A proper illustrator-facing style guide once the palette above is approved or replaced.
+- Kevin's confirmation of Pip the River Fish as a recurring cast member (new in Episode 4), same as Sleepy Moon and Quiet Star before.
