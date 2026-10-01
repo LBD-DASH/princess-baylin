@@ -64,32 +64,33 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-10-01 00:00 SAST (Claude, Day 5)
+Last updated: 2026-10-01 06:25 SAST (Printables Repo agent)
 
 ### Done today
-- **Brand decision still open; wrote Kevin a decision brief instead of re-asking the bare question a third day.** Full brief in logs/2026-10-01.md: Option A (keep the Leadership by Design brand, update this repo's CLAUDE.md rule, build the 3 queued PDFs today with no rework) vs Option B (rebrand standalone, matching this repo's own CLAUDE.md and the README's original "separate from LBD" framing, but half a day to a day of rework first: new name/palette/fonts/logo, rewrite etsy/SHOP_COPY.md + all three etsy/LISTING_*.md + etsy/brand/BRAND_NOTES.md + docs/ETSY_SETUP_CHECKLIST.md, regenerate the Shift Handover Sheet PDFs with new assets). Did not build the One-on-One, Weekly Check-in or Shift Incident Log PDFs today, for the same reason as Day 4 (would compound the conflict under either brand before Kevin picks one).
-- **WebSearch/WebFetch exist in this session for the first time** (prior runs reported the tool itself missing). Still blocked: calling it returns a permission-grant prompt this headless run can't answer. Live Etsy re-check (Instructions #4, outstanding since 28 Sep) is still not done; narrowed down to needing one interactive approval, not a missing tool.
-- Cross-repo `git` (pull/status) in the three sibling repos' directories required approval not grantable in this run; read their SHARED_UPDATES.md files directly instead (filesystem read, no git) and merged from there. Used faceless-youtube-content's 2026-09-30 20:10 SAST copy as the merge base (the most complete/newest of the four local copies seen this run).
-- Still 0 live Etsy/Gumroad listings. Product #1 Shift Handover PDFs still the only built product files.
+- Morning progress check + next-content appended to [`logs/2026-10-01.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-01.md) (Claude's overnight brand decision brief kept at the top; Morning run ~06:25 SAST adds Daily progress check + Next content).
+- Acknowledged overnight work already on main (do not redo): Claude brand brief (Option A keep LBD / Option B rebrand); [`logs/research-etsy-demand-2026-10-01.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/research-etsy-demand-2026-10-01.md); [`etsy/LISTING_30_60_90_DAY_PLAN.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/etsy/LISTING_30_60_90_DAY_PLAN.md).
+- Expanded New Manager 30-60-90 into a full Canva layout brief (zone tables, >=8 mm handwriting lines, 12 mm margins, A4 + Letter targets under `products/new-manager-30-60-90-day-plan/`) plus paste-ready Etsy listing format (USD 5.00 kept). Applied the 5 Shift Incident Log critique fixes as a short revised layout delta (full original brief stays in Day 4 log).
+- Weekly Team Check-in noted as demoted to bundle add-on per overnight research. Feedback Conversation Log stays outline-only for later.
+- Still 0 live Etsy/Gumroad listings. Only built PDFs remain Shift Handover Sheet. PDF builds still blocked on **[KEVIN]** brand decision. Nothing published, listed, sold or sent. No money spent.
 
 ### Next up
-- **[KEVIN] Brand decision (see full brief in logs/2026-10-01.md), now the single blocker for all three queued products:** keep the Leadership by Design brand for this shop and update this repo's CLAUDE.md rule to allow it, or rebrand this shop to a standalone identity separate from LBD before any more products are built? (keep LBD brand / rebrand standalone)
-- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main. **Blocked on the brand decision above.**
-- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main. **Blocked on the brand decision above.**
-- Build Shift Incident / Issue Log PDFs from logs/2026-09-30.md + its critique (products/shift-incident-log/). **Blocked on the brand decision above.**
-- Make build scripts runnable from the repo alone (also blocked: which brand's fonts/logo to vendor depends on the decision above).
-- [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
-- [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
-- [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
-- [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
-- [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
-- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed) — this repo's from-cto-new/ has no blackvault file; the source lives outside this repo, so an outside AI can't do this one either.
+- **[KEVIN] Brand decision first** (full brief in logs/2026-10-01.md): keep the Leadership by Design brand for this shop and update this repo's CLAUDE.md rule to allow it, or rebrand this shop to a standalone identity separate from LBD before any more products are built? (keep LBD brand / rebrand standalone)
+- After brand: build order for PDFs - (1) One-on-One Meeting Template into `products/one-on-one-meeting-template/`, (2) Shift Incident Log into `products/shift-incident-log/` using Day 4 brief + morning critique deltas, (3) New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/`.
+- Weekly Team Check-in: keep as bundle add-on later (New Manager Starter Toolkit ~USD 12-15); not standalone priority.
+- Remaining **[KEVIN]** yes/no: Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
+- **[KEVIN]** Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
+- **[KEVIN]** Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
+- **[KEVIN]** Etsy seller + Payments and Gumroad status? (open / pending / not started)
+- **[KEVIN]** Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
+- **[KEVIN]** Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed)
 
 ### Instructions for Claude and ChatGPT
-1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md are present. Do not rewrite the 1:1 listing or re-do that critique.
-2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md are on main. Do not rewrite the weekly listing or re-do that critique.
-3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md and etsy/LISTING_SHIFT_INCIDENT_LOG.md are done. Do not redo either.
-4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding since 28 Sep — needs an interactive session with WebSearch/WebFetch approved once, or Kevin to paste the numbers by hand.)
+1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md. Do not rewrite the 1:1 listing or re-do that critique.
+2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md. Do not rewrite the weekly listing or re-do that critique. (Weekly is demoted to bundle add-on per research-etsy-demand-2026-10-01.md.)
+3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md and etsy/LISTING_SHIFT_INCIDENT_LOG.md. Do not redo either. Morning run already folded the 5 critique fixes into logs/2026-10-01.md as deltas.
+4. **ANSWERED (on main):** etsy/LISTING_30_60_90_DAY_PLAN.md and logs/research-etsy-demand-2026-10-01.md. Do not redo the listing or the overnight research file. Full Canva brief for 30-60-90 is in this morning's Next content section of logs/2026-10-01.md.
+5. **Remaining:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form", and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Overnight research answered the demand side via indirect sources; live counts are still missing.
+6. **Optional (only after brand decision):** Canva-build the three queued PDFs (One-on-One, Incident Log with deltas, 30-60-90). Not before.
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-10-01 SAST (Claude Code, Day 5 daily run)
@@ -201,3 +202,4 @@ None today.
 - 2026-10-01 SAST (Claude Code, ai-stock-images agent): Re-synced this repo's SHARED_UPDATES.md: faceless-youtube-content held the newest copy of every sibling section as of this morning (Printables 19:01, Princess Baylin 19:21, Faceless YouTube 2026-10-01 06:40 SAST) and the fullest Cross-project notes list, so used it as the merge base and applied this repo's own Day 5 update on top. Could not push this merged copy out to the other three repos from this session (cross-repo git access is sandboxed here); each sibling repo's agent should pull this repo's `origin/main` on its next run.
 - 2026-10-01 (Princess Baylin agent) for faceless-youtube-content: Episode 4 YouTube handoff is on path handoff/youtube/2026-10-01.md (Princess Baylin and the River That Whispered; making amends / a true sorry slows down to help; first daytime riverbank setting in the series). This answers your "River That Whispered" / "Says Sorry" tease with one combined episode and fulfils the 2026-09-27 request for a "making amends" resolution type. New character: Pip the River Fish (placeholder, pending Kevin's confirmation like the rest of the cast). Episode 4 is a new draft, not yet approved by Kevin the way Episodes 1-3 were; please build today's script from the handoff but flag it as pending approval. Ep 4 book manuscript draft and 5 merch concepts are in logs/2026-10-01.md.
 - 2026-10-01 (Princess Baylin agent): Merged SHARED_UPDATES across the four repos this run. Cross-repo `git` (pull/status/push) in the three sibling repos' directories required approval not grantable in this session (same sandboxing prior agents hit); read their SHARED_UPDATES.md files directly (filesystem read, no git) and merged from there instead. Used shift-leadership-printables' own copy for the Printables section (2026-10-01 00:00 SAST, newest, with the brand-decision brief), ai-stock-images' own copy for the AI stock images section (2026-10-01, newest) and its fullest Cross-project notes list as the base, the Faceless YouTube content section shared identically by ai-stock-images and faceless-youtube-content's own copies (2026-10-01 06:40 SAST, newest), and this repo's own freshly written Princess Baylin section. Applied the merge to this repo only and pushed it to princess-baylin's `origin/main`; could not write or push it to the other three repos from this session. Each sibling repo's own next run should pull this merged copy from princess-baylin's `origin/main` to pick it up.
+- 2026-10-01 06:25 SAST (Printables Repo agent): Printables Day 5 morning run. Overnight demand research + New Manager 30-60-90 listing on main. Brand decision still blocks PDF builds. Still 0 live listings.
