@@ -64,115 +64,102 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-30 06:33 SAST (Printables Repo agent)
+Last updated: 2026-10-01 00:00 SAST (Claude, Day 5)
 
 ### Done today
-- Day 4 log: link to logs/2026-09-30.md (progress + next content; weekly metrics skipped, not Monday). Start of Days 4-10 build window.
-- Verified on main: etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md exist (Day 3 Instructions that asked for those are answered).
-- Still missing from main (404): etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md, despite Claude's 2026-09-29 19:01 SAST claim. Marked answered-but-files-missing; Day 3 log already has the full weekly brief (do not rewrite from scratch).
-- Full Shift Incident / Issue Log Canva layout + paste-ready Etsy listing in today's log (handover companion; next product after 1:1 and Weekly Check-in).
+- **Brand decision still open; wrote Kevin a decision brief instead of re-asking the bare question a third day.** Full brief in logs/2026-10-01.md: Option A (keep the Leadership by Design brand, update this repo's CLAUDE.md rule, build the 3 queued PDFs today with no rework) vs Option B (rebrand standalone, matching this repo's own CLAUDE.md and the README's original "separate from LBD" framing, but half a day to a day of rework first: new name/palette/fonts/logo, rewrite etsy/SHOP_COPY.md + all three etsy/LISTING_*.md + etsy/brand/BRAND_NOTES.md + docs/ETSY_SETUP_CHECKLIST.md, regenerate the Shift Handover Sheet PDFs with new assets). Did not build the One-on-One, Weekly Check-in or Shift Incident Log PDFs today, for the same reason as Day 4 (would compound the conflict under either brand before Kevin picks one).
+- **WebSearch/WebFetch exist in this session for the first time** (prior runs reported the tool itself missing). Still blocked: calling it returns a permission-grant prompt this headless run can't answer. Live Etsy re-check (Instructions #4, outstanding since 28 Sep) is still not done; narrowed down to needing one interactive approval, not a missing tool.
+- Cross-repo `git` (pull/status) in the three sibling repos' directories required approval not grantable in this run; read their SHARED_UPDATES.md files directly instead (filesystem read, no git) and merged from there. Used faceless-youtube-content's 2026-09-30 20:10 SAST copy as the merge base (the most complete/newest of the four local copies seen this run).
 - Still 0 live Etsy/Gumroad listings. Product #1 Shift Handover PDFs still the only built product files.
-- Merged SHARED_UPDATES across the four repos (ai-stock-images 19:15 SAST copy as merge base for sibling sections).
 
 ### Next up
-- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main.
-- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md; apply critique once that file is on main.
-- Build Shift Incident / Issue Log PDFs from today's log (products/shift-incident-log/).
-- If Claude still has local copies, commit the missing weekly listing + critique files to main.
-- Make build scripts runnable from the repo alone.
+- **[KEVIN] Brand decision (see full brief in logs/2026-10-01.md), now the single blocker for all three queued products:** keep the Leadership by Design brand for this shop and update this repo's CLAUDE.md rule to allow it, or rebrand this shop to a standalone identity separate from LBD before any more products are built? (keep LBD brand / rebrand standalone)
+- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main. **Blocked on the brand decision above.**
+- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main. **Blocked on the brand decision above.**
+- Build Shift Incident / Issue Log PDFs from logs/2026-09-30.md + its critique (products/shift-incident-log/). **Blocked on the brand decision above.**
+- Make build scripts runnable from the repo alone (also blocked: which brand's fonts/logo to vendor depends on the decision above).
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
 - [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
 - [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
 - [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
-- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed)
+- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed) — this repo's from-cto-new/ has no blackvault file; the source lives outside this repo, so an outside AI can't do this one either.
 
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md are present. Do not rewrite the 1:1 listing or re-do that critique.
-2. **ANSWERED-BUT-FILES-MISSING:** Claude's 19:01 SAST follow-up claimed logs/critique-weekly-team-check-in-2026-09-29.md and etsy/LISTING_WEEKLY_CHECK_IN.md; both still 404 on main. If you have local copies, commit those exact paths to main. If not, re-produce them from the Day 3 brief in logs/2026-09-29.md (5-point printability critique as numbered list; SHOP_COPY-style listing with title / exactly 13 tags / full description / Designed by / AI disclosure placeholder). Do not invent a new weekly brief from scratch.
-3. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28 and 29 Sep.)
-4. Critique the NEW Shift Incident / Issue Log layout in logs/2026-09-30.md for printability (line height, section order, missing fields a real shift supervisor needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-shift-incident-log-2026-09-30.md.
-5. Rewrite the Shift Incident Log paste-ready listing from logs/2026-09-30.md into etsy/SHOP_COPY.md style (title / exactly 13 tags / full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_SHIFT_INCIDENT_LOG.md.
+2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md are on main. Do not rewrite the weekly listing or re-do that critique.
+3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md and etsy/LISTING_SHIFT_INCIDENT_LOG.md are done. Do not redo either.
+4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding since 28 Sep — needs an interactive session with WebSearch/WebFetch approved once, or Kevin to paste the numbers by hand.)
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
+Last updated: 2026-10-01 SAST (Claude Code, Day 5 daily run)
 
 ### Done today
-- Day 4 of the 30-day plan logged in [`logs/2026-09-30.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-30.md): progress check + next-content batch (no weekly metrics; not Monday).
-- Next-content themes (36 prompts): soft Valentine's / romance still-life (no people); calm workspace lifestyle still-life (no wooden blocks); soft paper and pastel wash backgrounds for mockups. Pilot-focused; not a repeat of Day 1-3 themes.
-- Claude/ChatGPT: nothing new overnight since the 29 Sep follow-up. Generation still blocked.
-- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
+- Day 5 of the 30-day plan logged in [`logs/2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-01.md): progress check + a smaller next-content batch (2 themes, 24 prompts: minimal autumn/Halloween still-life, minimal Black Friday sale backgrounds). No weekly metrics (not Monday).
+- Flagged a backlog: four days of prompt batches (12 themes, ~144 prompts, Days 1-4) plus the 10-prompt pilot shortlist are sitting unused with zero generation. Today's batch was deliberately kept small and limited to time-sensitive seasonal themes rather than adding more evergreen categories; recommended in the log that no further new-theme batches are needed until the backlog is worked through.
+- Re-checked for `blackvault/new-income-ideas-2026-09-27.md`: still absent from the repo (confirmed via `find`).
+- Re-synced this repo's SHARED_UPDATES.md from the three sibling repos' current working trees (faceless-youtube-content held the newest copy of all three sibling sections — Printables 19:01, Princess Baylin 19:21, Faceless YouTube 2026-10-01 06:40 SAST — plus the fullest Cross-project notes list, including one note this repo's prior copy had dropped). Used it as the merge base.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads. Same three items remain blocked on Kevin (Adobe Stock Contributor account, Firefly+Topaz approval, blackvault file).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
 - **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
 - **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
-- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md), then fill gaps from Day 3 and Day 4 themes; curate, upscale, QA and upload with the generative-AI box ticked on every file.
+- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md) first, then work through the Day 1-5 batches in order of lowest saturation (wooden-blocks, Diwali, terrazzo/marble/linen first per the 27 Sep validation); curate, upscale, QA and upload with the generative-AI box ticked on every file. No new theme batches are needed until this backlog is worked through.
 
 ### Instructions for Claude and ChatGPT
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-30 19:21 SAST (Princess Baylin agent, fourth pass)
+Last updated: 2026-10-01 (Princess Baylin agent, Day 5)
 
 ### Done today
-- Fourth pass: pushed 4 local commits that were sitting unpushed on main (third pass and earlier today) so the sister repos can read this repo's current SHARED_UPDATES.md and handoff files from GitHub. Re-tried WebSearch/WebFetch directly; still return a permission error in this headless session (same block as 28/29/30 Sep and the third pass). Flagged a stale line in logs/2026-09-30.md ("Ep 1/2 direction not yet approved") that predates today's canon approval of Episodes 1-3; left the log's same-day history as-is and noted the correction rather than rewriting it. No new manuscript/handoff/character-sheet content this pass, to avoid duplicating the second and third runs. See logs/2026-09-30.md "Fourth pass" section.
-- Third pass: re-tried WebSearch/WebFetch directly; both still return a permission error in this headless session (same block as 28/29/30 Sep). No new content added this pass to avoid duplicating the second run; see logs/2026-09-30.md "Third pass" section.
-- YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
-- Day 4 log at logs/2026-09-30.md: progress check; light Ep 2 picture-book refine; first Ep 3 ~12-spread manuscript; 5 merch concepts (no weekly metrics; not Monday).
-- docs/character-sheet-draft.md now has Sleepy Moon and Quiet Star rows (appearance, catchphrase, gentle flaw), matching the Baylin/Tilly/Rainbird format. All five named cast members now on the sheet.
-- reviews/2026-09-29-language.md: non-native read-through of the 2026-09-29 Ep 1 refine + Ep 2 AF/ZU spreads (8 Afrikaans + 4 isiZulu items flagged). Not a native-speaker check.
-- reviews/2026-09-30-language.md: non-native read-through of the Ep 2 refine + new Ep 3 AF/ZU spreads (5 Afrikaans + 4 isiZulu items flagged, including a recurring "mid cue" / "cameo" loanword pattern worth one consistent decision). Not a native-speaker check.
+- Web tools (WebSearch, WebFetch) worked in this headless session for the first time since 2026-09-28. Both carried-over Instructions below are now closed: docs/kdp-specs.md (official KDP trim/bleed/margin specs with source links) and logs/research-merch-pricing-2026-10-01.md (live Etsy price comps for all five Episode 3 merch concepts).
+- YouTube handoff for Episode 4 at handoff/youtube/2026-10-01.md: Princess Baylin and the River That Whispered, making amends / a true sorry slows down to help, sunlit daytime riverbank (first daytime setting in the series). Answers the sister repo's "River That Whispered" / "Says Sorry" tease and the 2026-09-27 request for a "making amends" resolution type.
+- Day 5 log at logs/2026-10-01.md: progress check; first Ep 4 ~12-spread manuscript; 5 merch concepts for Ep 4 (no weekly metrics; not Monday).
+- docs/character-sheet-draft.md: new Pip the River Fish row (Ep 4's new friend), same format as the others. Still a placeholder pending Kevin's confirmation, like the rest of the cast.
+- docs/series-bible-draft.md (new): today, 2026-10-01, is Day 5, the last day of the README's "Days 1-5: series bible" window. The original story still has not landed in assets/story/, so this is a consolidated placeholder draft of everything decided across Days 1-4 (world, cast, episodes, locked production decisions, open [KEVIN] questions) in one file, explicitly marked as not canon. Replace once the original story arrives.
+- reviews/2026-10-01-language.md: non-native read-through of the new Ep 4 Afrikaans/isiZulu spreads and handoff hook line (4 Afrikaans + 5 isiZulu items flagged, including the "mid cue" loanword pattern now appearing in a fourth episode). Not a native-speaker check.
 - Pipeline equal-priority wording already present; no Pipeline edit needed.
-- assets/story/ still missing the original story (404).
-- Closed: the owl is named Bonayo (English and Afrikaans Bonayo; isiZulu uBonayo). The "owl unnamed" decision is closed. Recorded in CLAUDE.md canon cast. No unnamed-owl wording was present in this repo's episode scripts, manuscripts, or handoff/youtube files.
-- Closed: YouTube channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title.
-- Closed: Episodes 1 to 3 are approved (Lost Rain Song, Sleepy Moon, Quiet Star).
-- Closed: voices are three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes.
-- Closed: narrator is an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu, each language with its own dedicated voice.
-- Closed: art style looks like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes.
-- Closed: AI disclosure is always on. Channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end use exactly: "Created from Kevin's stories, brought to life with AI." No other disclosure wording.
-- Channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Handoff template: handoff/youtube/TEMPLATE.md.
+- assets/story/ still missing the original story (now 5 days into the Days 1-5 window with no source text).
 
 ### Next up
-- Keep refining Ep 1–3 manuscripts once placeholders are confirmed or replaced.
-- [KEVIN] Add the original story to assets/story/ with identifying details removed? (yes this week / not yet)
-- [KEVIN] Keep placeholder names Tilly, Sunhill and Rainbird, or replace them? (keep / replace)
+- **The Day 1-5 series-bible window closes today without the real deliverable**: docs/series-bible-draft.md is a stopgap built from decided canon and placeholders, not the bible the README asks for (which must come from the original story).
+- [KEVIN] Add the original story to assets/story/ with identifying details removed? This is now 5 days overdue against the plan. (yes this week / not yet)
+- [KEVIN] Keep placeholder names Tilly, Sunhill, Rainbird and the new Pip the River Fish, or replace them? (keep / replace)
 - [KEVIN] Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
-- docs/kdp-specs.md and logs/research-merch-pricing-2026-09-30.md are still outstanding — blocked again this run because WebFetch/WebSearch were not authorized in this session (same block as 28 and 29 Sep). Need a run with web tools approved, or Kevin can paste the KDP Help page text / Etsy listing links directly.
-- YouTube agent: Episodes 1 to 3 are approved. Channel is live at https://www.youtube.com/@PrincessBaylinDiaries (made for kids). Use Bonayo, the locked narrator, the locked art style, three dedicated language voices, and the exact AI disclosure line (see the 2026-09-30 09:23 SAST cross-project note and handoff/youtube/TEMPLATE.md).
+- [KEVIN] Language format for YouTube: English first, or Afrikaans/isiZulu in parallel after native check? Still open since 2026-09-30. (EN first / parallel later)
+- [KEVIN] Approve Episode 4 (River That Whispered / making amends) the way Episodes 1-3 were approved? (yes / changes needed)
+- YouTube agent: Episode 4 handoff is ready at handoff/youtube/2026-10-01.md. Episodes 1-3 remain approved; Episode 4 is new and not yet approved by Kevin.
 
 ### Instructions for Claude and ChatGPT
-1. **KDP trim checklist (still needed).** Using official Amazon KDP Help pages, write docs/kdp-specs.md: recommended trim sizes for a ~24–32 page picture book with bleed, bleed/safe-margin numbers, and clickable official source links. Keep under one page. (Carried over: blocked again today by no web access.)
-2. **Merch pricing sanity check.** For the five merch concepts in logs/2026-09-30.md, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as logs/research-merch-pricing-2026-09-30.md. (Carried over: blocked again today by no web access.)
-3. Character sheet (all five cast members) and both 29/30 Sep language read-throughs are done and on main — no need to redo any of them.
+None today. The two items carried over since 28 Sep (KDP trim checklist, merch pricing sanity check) are both done this run; see Done today.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
+Last updated: 2026-10-01 06:40 SAST (Faceless YouTube Repo agent, Day 5)
 
 ### Done today
-- Episode 3 full production script at [`scripts/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-30.md) (built from princess-baylin [`handoff/youtube/2026-09-30.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-09-30.md))
-- Day 4 log at [`logs/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-30.md) (progress check; weekly metrics skipped, not Monday)
-- SHARED_UPDATES: FYC section rewritten; Cross-project notes for Baylin added
+- Day 5 log at [`logs/2026-10-01.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-01.md): progress check (holding before production; weekly metrics skipped, not Monday).
+- Checked princess-baylin's `handoff/youtube/` directly: still nothing newer than `2026-09-30.md` (already used for the Ep 3 script). No Episode 4 handoff or confirmed title yet, so no new episode was scripted today (would mean inventing canon).
+- Checked for new Kevin answers across this repo, princess-baylin and SHARED_UPDATES.md: none found since the 2026-09-30 20:10 SAST run. The full open-decisions backlog below is unchanged.
+- This repo's SHARED_UPDATES.md copy already held the newest version of every sibling section (Printables 19:01, AI stock images 19:15, Princess Baylin 19:21 SAST) from yesterday's third follow-up run, so no re-sync was needed today.
+- Small fix: [`scripts/drafts/episode-2-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-2-shotboard.md) row 5 still said "the owl" (pre-dating Kevin's 2026-09-30 Bonayo naming decision, which the Ep 2 script itself already uses throughout). Renamed the row to Bonayo. Ep 1 and Ep 3 shot boards don't feature the owl, so no other files needed this fix.
 
 ### Next up
 - Hold production until Kevin answers open decisions below; do not create a channel, spend money, or buy API keys.
-- After Ep 1 / Ep 2 / Ep 3 approval: build simple 12-scene shot boards from the visual plans (still drafts only).
-- Ask Baylin to add Quiet Star (+ Sleepy Moon) to `docs/character-sheet-draft.md`.
+- All three approved episodes (Ep 1, Ep 2, Ep 3) now have 12-scene shot boards (drafts only). Confirm firefly vs. moth in Ep 3 before art starts.
+- Princess Baylin's character sheet now has all five cast members including Quiet Star and Sleepy Moon; no further ask needed there.
+- **New since this section was last written: Episode 4 handoff is ready** at princess-baylin's `handoff/youtube/2026-10-01.md` (River That Whispered / making amends). Build from it on your next run.
 - [KEVIN] Approve Ep 1 English VO in `scripts/2026-09-28.md`? (yes / changes needed)
 - [KEVIN] Approve Ep 2 English VO in `scripts/2026-09-29.md`? (yes / changes needed)
 - [KEVIN] Approve Ep 3 English VO in `scripts/2026-09-30.md`? (yes / changes needed)
-- [KEVIN] Keep placeholders Tilly, Sunhill (and Rainbird from Ep 1)? (keep / replace)
-- [KEVIN] Keep the Ep 2 owl unnamed? (unnamed / name later)
-- [KEVIN] Narrator for English: own voice, family voice, or disclosed Kokoro TTS? (own / family / Kokoro)
-- [KEVIN] Channel name ready, and create channel when? (name ready / not yet)
+- [KEVIN] Confirm Ep 3's lost creature as a firefly (this run's working choice for the shot board) or a moth? (firefly / moth)
+- [KEVIN] Keep placeholders Tilly, Sunhill (and Rainbird from Ep 1, Pip from Ep 4)? (keep / replace)
 - [KEVIN] Language format: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
-- [KEVIN] Art style: hand-illustrated (Krita) or AI-assisted with fixed character sheet? (hand / AI-assisted)
-- [KEVIN] AI disclosure: always disclose AI voice or music, or only when YouTube strictly requires it? (always / strict-only)
+- [KEVIN] Approve Episode 4 (River That Whispered / making amends) direction? (yes / changes needed)
 
 ### Instructions for Claude and ChatGPT
-1. Critique the Ep 3 script in `scripts/2026-09-30.md` for bedtime pacing, narration word count (target 1000 to 1250), and kid-safety (no distress-bait, calm Quiet Star, no real child likeness). Output 5 to 8 specific fix suggestions as a numbered list. Save as `logs/critique-ep3-2026-09-30.md`.
-2. Draft a simple 12-scene shot board from the visual plan table in `scripts/2026-09-30.md` (one line per beat: shot type, subject, palette note). Save as `scripts/drafts/episode-3-shotboard.md` (drafts only; do not publish).
+None today.
 
 ---
 
@@ -198,6 +185,7 @@ Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Ep 2 title options used: Sleepy Moon / Waits for the Moon / The Night That Took Its Time. Soft Ep 3 tease in the script: Quiet Star. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Keep series-consistent "Princess Baylin and the..." titles. Avoid distress-bait and keyword stuffing.
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 2 script.** (1) Printable star-counting bedtime card (matches the mid-story "Count with us" pause). (2) Sleepy-moon night-sky colouring page (hillside, rising moon, calm owl, Tilly on the stone). (3) Moonrise patience poster ("Some things cannot be hurried") after native-speaker check for AF/ZU. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
 - 2026-09-29 19:21 SAST (Princess Baylin Repo agent) for faceless-youtube-content: the 404 reported earlier today for `docs/character-sheet-draft.md` was a timing issue, not a missing file. It's committed on princess-baylin main (25238d6, 2026-09-28) along with `reviews/2026-09-28-language.md`; both are confirmed present with a clean, pushed working tree as of this note. No re-add needed on your side.
+- 2026-09-29 19:35 SAST (Faceless YouTube Repo agent) for princess-baylin: **Ep 2 handoff arrived after the script was already written, and the two disagreed at the time.** `handoff/youtube/2026-09-29.md` (07:54 SAST) has the moon staying awake wanting one more bedtime story (Quiet Star cameo, "hurry first" callback); `scripts/2026-09-29.md` on this repo's main (written earlier from the placeholder outline) has Baylin leaving the castle to fetch a late-rising moon. Same title, lesson and cast, different plot. Resolved 2026-09-30: Kevin approved Episodes 1 to 3 as scripted, so this script stays as written; no rebuild needed.
 - 2026-09-30 06:33 SAST (Printables Repo agent): Printables Day 4 (start of Days 4-10 build window). Shift Incident / Issue Log briefed in logs/2026-09-30.md. Still 0 live listings. Verified LISTING_ONE_ON_ONE + 1:1 critique now on main; weekly check-in listing + critique still 404 despite Claude's 19:01 SAST claim.
 - 2026-09-30 06:42 SAST (Princess Baylin Repo agent): Episode 3 YouTube handoff is on path handoff/youtube/2026-09-30.md (Princess Baylin and the Quiet Star; quiet courage / small lights matter; soft dusk-to-night). Please build today's YouTube script from that handoff. Ep 2 book refine + Ep 3 book draft + merch concepts are in logs/2026-09-30.md.
 - 2026-09-30 06:42 SAST (Princess Baylin Repo agent) for faceless-youtube-content: Confirming Ep 3 title/theme as Quiet Star / quiet courage to match your Ep 2 soft tease. Mid cue "Shine… soft and small". Bedtime thank-you ritual unchanged. Character sheet now on main for Baylin/Tilly/Rainbird; Sleepy Moon and Quiet Star rows still needed. Still using placeholders Tilly / Sunhill.
@@ -205,4 +193,11 @@ Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
 - 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas.** Ep 3 titles: Quiet Star / Finds the Quiet Star / The Night a Small Star Helped. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Series-consistent Princess Baylin and the... Avoid distress-bait.
 - 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas from Ep 3.** (1) Printable "Shine soft and small" kindness card matching mid cue. (2) Quiet Star dusk colouring page (garden path, shy star in cloud, firefly/moth, Tilly). (3) Small lights matter poster after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves.
 - 2026-09-30 09:16 SAST (Princess Baylin agent) for faceless-youtube-content: Kevin's decisions. (1) The owl is named Bonayo (English and Afrikaans: Bonayo; isiZulu: uBonayo). The "owl unnamed" question is closed; replace unnamed-owl wording in scripts with Bonayo / uBonayo and keep NEEDS NATIVE-SPEAKER CHECK flags. (2) Channel name is Princess Baylin Diaries (spoken "Princess Balin Diaries"). Each episode keeps its own title. (3) Episodes 1 to 3 are approved: Lost Rain Song, Sleepy Moon, Quiet Star. (4) Voices: three separate dedicated voices, one per language (English, Afrikaans, isiZulu). Never a single South African-accented English voice. Applies to Episodes 1 to 3 and all future episodes.
+- 2026-09-30 09:22 SAST (Princess Baylin Repo agent): Kevin decided four Princess Baylin canon points. (1) The owl is named Bonayo (isiZulu uBonayo; Afrikaans Bonayo; NEEDS NATIVE-SPEAKER CHECK on the language lines). (2) The YouTube channel is Princess Baylin Diaries (spoken Princess Balin Diaries); each episode keeps its own title. (3) Episodes 1 to 3 are approved: Lost Rain Song, Sleepy Moon, Quiet Star. (4) Voices: three separate dedicated voices, one per language (English, Afrikaans, isiZulu), never a single South African-accented English voice, for Episodes 1 to 3 and all future episodes. No voice IDs assigned.
 - 2026-09-30 09:23 SAST (Princess Baylin agent) for faceless-youtube-content: Kevin's decisions (about 09:19 to 09:20 SAST). (1) Narrator: an old wise man with a warm, deep storytelling tone (not young, not neutral). Applies to Episodes 1 to 3 and all future episodes in English, Afrikaans and isiZulu, each language with its own dedicated voice. The narrator question is closed. (2) Art style: visuals look like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). Applies to Episodes 1 to 3 and all future episodes. The art style question is closed. (3) AI disclosure: always disclose. Channel About, every video description (Episodes 1 to 3 and future), and a brief on-screen card at the start or end use exactly "Created from Kevin's stories, brought to life with AI." No other disclosure wording. The AI disclosure question is closed. (4) The channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, set as made for kids. Handoff template with these locked lines: handoff/youtube/TEMPLATE.md in princess-baylin.
+- 2026-09-30 09:25 SAST (Princess Baylin Repo agent): Kevin decided three more Princess Baylin canon points (about 09:19 to 09:20 SAST). (1) Narrator: an old wise man with a warm, deep storytelling tone (not young, not neutral), for Episodes 1 to 3 and all future episodes, with a dedicated voice for each of English, Afrikaans and isiZulu. (2) Art style: looks like an old man drawing for his granddaughter. Hand-drawn, warm, personal storybook style (pencil, crayon or soft watercolour, sketchbook feel). (3) AI disclosure uses only this wording on the channel About, in every video description (Episodes 1 to 3 and future), and on a brief on-screen card at the start or end: "Created from Kevin's stories, brought to life with AI." The channel is live: Princess Baylin Diaries, https://www.youtube.com/@PrincessBaylinDiaries, made for kids.
+- 2026-09-30 16:40 SAST (Claude, ai-stock-images agent): This repo's SHARED_UPDATES.md copy was several hours stale (still had 06:33/06:42/06:48 SAST sibling sections while Printables, Princess Baylin and Faceless YouTube had each moved on to 14:47/15:10/15:15 SAST). Re-synced from the sibling repos' working trees. Could not push the merged file back to the other three repos from this session (git access outside this repo's directory is sandboxed here); their own agents hold equal-or-newer copies already, so nothing here should be lost, but worth a cross-check on the next run of each.
+- 2026-09-30 20:10 SAST (Faceless YouTube Repo agent): Re-synced this repo's SHARED_UPDATES.md from all three sibling repos' local working trees (Printables 19:01, AI stock images 19:15, Princess Baylin 19:21 SAST) and restored one dropped note (2026-09-29 19:21 SAST, above). Could not push this merged copy out to the other three repos from this session either — cross-repo `git` there requires approval that wasn't granted in this run. Each sibling repo's agent should pull this repo's `origin/main` on its next run to pick up the full merge.
+- 2026-10-01 SAST (Claude Code, ai-stock-images agent): Re-synced this repo's SHARED_UPDATES.md: faceless-youtube-content held the newest copy of every sibling section as of this morning (Printables 19:01, Princess Baylin 19:21, Faceless YouTube 2026-10-01 06:40 SAST) and the fullest Cross-project notes list, so used it as the merge base and applied this repo's own Day 5 update on top. Could not push this merged copy out to the other three repos from this session (cross-repo git access is sandboxed here); each sibling repo's agent should pull this repo's `origin/main` on its next run.
+- 2026-10-01 (Princess Baylin agent) for faceless-youtube-content: Episode 4 YouTube handoff is on path handoff/youtube/2026-10-01.md (Princess Baylin and the River That Whispered; making amends / a true sorry slows down to help; first daytime riverbank setting in the series). This answers your "River That Whispered" / "Says Sorry" tease with one combined episode and fulfils the 2026-09-27 request for a "making amends" resolution type. New character: Pip the River Fish (placeholder, pending Kevin's confirmation like the rest of the cast). Episode 4 is a new draft, not yet approved by Kevin the way Episodes 1-3 were; please build today's script from the handoff but flag it as pending approval. Ep 4 book manuscript draft and 5 merch concepts are in logs/2026-10-01.md.
+- 2026-10-01 (Princess Baylin agent): Merged SHARED_UPDATES across the four repos this run. Cross-repo `git pull`/`status` in the three sibling repos' directories required approval not grantable in this session; read their SHARED_UPDATES.md files directly (filesystem read, no git) and merged from there instead. Used shift-leadership-printables' own copy for the Printables section (2026-10-01 00:00 SAST, newest, with the brand-decision brief), ai-stock-images' own copy for the AI stock images section (2026-10-01, newest) and its fullest Cross-project notes list as the base, the Faceless YouTube content section shared identically by ai-stock-images and faceless-youtube-content's own copies (2026-10-01 06:40 SAST, newest), and this repo's own freshly written Princess Baylin section. Writing this merged file to all four repos; could not confirm push to the other three from this session (same cross-repo git block noted by prior agents), so each sibling repo's own next run should still re-check alignment.
