@@ -20,7 +20,7 @@ Princess Baylin is the hero of a gentle children's fairy-tale world. Each story 
 
 ## World (placeholder, pending the original story)
 
-- **Kingdom of Sunhill** — Baylin's home kingdom. Settings used so far: a dry garden (Ep 1), Baylin's bedroom under a night sky (Ep 2), a garden path at dusk (Ep 3), a sunlit riverbank (Ep 4).
+- **Kingdom of Sunhill**: Baylin's home kingdom. Settings used so far: a dry garden (Ep 1), Baylin's bedroom under a night sky (Ep 2), a garden path at dusk (Ep 3), a sunlit riverbank (Ep 4).
 - No real-world landmarks, schools, or locations. Everything is an illustrated, invented place.
 
 ## Recurring cast
@@ -29,7 +29,7 @@ Princess Baylin is the hero of a gentle children's fairy-tale world. Each story 
 |---|---|---|---|---|---|---|
 | Princess Baylin | Baylin | Baylin | uBaylin | "Let's go and see!" | Acts fast and loud before she listens | Placeholder, hero of every episode |
 | Tilly the Tortoise | Tilly | Tilly | uTilly | "We'll get there in the end." | So calm she sometimes waits too long to speak up | Placeholder, constant companion |
-| The owl | Bonayo | Bonayo | uBonayo | — | — | **Confirmed canon** (2026-09-30); do not leave unnamed, do not rename |
+| The owl | Bonayo | Bonayo | uBonayo | "Well listened, Princess Baylin." | n/a | **Confirmed canon** (2026-09-30); do not leave unnamed, do not rename |
 | The Rainbird | Rainbird | Rainbird | uRainbird | "I remember... almost." | Forgetful | Placeholder, Episode 1 |
 | Sleepy Moon | Sleepy Moon | Slaperige Maan | iNyanga Eleleyo | "Wait... soft and slow." | Fights sleep by staying too busy watching | Placeholder, Episode 2 (cameo in Ep 3) |
 | Quiet Star | Quiet Star | Stil Ster | iNkanyezi Ethule | "Shine... soft and small." | Doubts its small light matters | Placeholder, Episode 3 |
@@ -39,10 +39,10 @@ Full appearance notes and shared colour palette: `docs/character-sheet-draft.md`
 
 ## Episodes so far
 
-1. **Lost Rain Song** — lesson: listening. Mid cue: "Listen... what do you hear?"
-2. **Sleepy Moon** — lesson: patience, waiting gently. Mid cue: "Wait... soft and slow."
-3. **Quiet Star** — lesson: quiet courage, small lights matter. Mid cue: "Shine... soft and small."
-4. **River That Whispered** (new, this run) — lesson: making amends, a real sorry helps fix what broke. Mid cue: "Mend... soft and true."
+1. **Lost Rain Song**, lesson: listening. Mid cue: "Listen... what do you hear?"
+2. **Sleepy Moon**, lesson: patience, waiting gently. Mid cue: "Wait... soft and slow."
+3. **Quiet Star**, lesson: quiet courage, small lights matter. Mid cue: "Shine... soft and small."
+4. **River That Whispered** (new, this run), lesson: making amends, a real sorry helps fix what broke. Mid cue: "Mend... soft and true."
 
 Each episode: a new setting, a new friend or problem, a new resolution type, so no two episodes repeat the same lesson. Every episode ends with the same bedtime thank-you ritual: "Thank you, friends!" / AF "Dankie, vriende!" / ZU "Siyabonga, bangane!"
 

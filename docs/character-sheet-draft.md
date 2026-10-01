@@ -14,6 +14,12 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Gentle flaw: so calm she sometimes waits too long to speak up.
 - Role: the steady voice that reminds Baylin to listen.
 
+## Bonayo the Owl (confirmed canon, not a placeholder)
+- Appearance: a wise old owl who lives high in the old fig tree; round, soft-sounding call ("Hoo-hoo").
+- Catchphrase: "Well listened, Princess Baylin."
+- Gentle flaw: not yet shown; appears briefly at the close of each episode so far.
+- Role: wakes at nightfall to mark the end of the day's lesson and send Baylin off to sleep. isiZulu: uBonayo. Afrikaans: Bonayo. Confirmed canon by Kevin, 2026-09-30; never leave this owl unnamed and never use another owl name.
+
 ## The Rainbird
 - Appearance: soft blue-grey feathers, a fan-shaped tail like a paper lantern, perches in the old fig tree.
 - Catchphrase: "I remember... almost."
