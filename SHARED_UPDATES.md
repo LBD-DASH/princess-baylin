@@ -64,17 +64,17 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-10-02 06:27 SAST (Printables Repo agent)
+Last updated: 2026-10-02 06:40 SAST (Printables Repo agent)
 
 ### Done today
 - Day 6 morning run: progress check + next content in [`logs/2026-10-02.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-02.md). Weekly metrics skipped (not Monday).
 - Patched [`etsy/LISTING_ONE_ON_ONE.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/etsy/LISTING_ONE_ON_ONE.md) so status and WHAT'S ON THE SHEET match the built PDF (Manager and Next 1:1 fields, follow-up line, why lines, 5 action rows, Next 1:1 booked tracker column). Brand line stays Designed by Kevin Britz / Leadership by Design.
 - Refreshed Shift Incident Log into a build-ready brief (Day 4 layout + Day 5 critique deltas: two-row header, fixed Type break, Impact legend + 3 rows, page-height budget) with paste-ready Etsy listing confirmation (USD 3.50, title/tags from etsy/LISTING_SHIFT_INCIDENT_LOG.md).
-- Confirmed on main: One-on-One PDFs built; `logs/critique-one-on-one-pdf-2026-10-01.md` still missing. Brand decision DONE (keep LBD). Still 0 live Etsy/Gumroad listings. Built products: Shift Handover Sheet and One-on-One Meeting Template. Nothing published, listed, sold or sent. No money spent.
+- Built Shift Incident Log PDFs: [`products/shift-incident-log/shift-incident-log-A4.pdf`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/products/shift-incident-log/shift-incident-log-A4.pdf) and `shift-incident-log-Letter.pdf` from `products/shift-incident-log/src/make_pdf.py` (reportlab, repo fonts and LBD mark). Page 1 incident sheet with all five critique fixes, Page 2 ten-row open-incidents tracker. Rows 8.75 mm (A4) and 8.02 mm (Letter) on Page 1, asserted at 8 mm or more; 12 mm margins; no full-bleed fills. Every page rendered and checked. `etsy/LISTING_SHIFT_INCIDENT_LOG.md` status and on-sheet contents now match the PDF.
+- Confirmed on main: One-on-One PDFs built; `logs/critique-one-on-one-pdf-2026-10-01.md` still missing. Brand decision DONE (keep LBD). Still 0 live Etsy/Gumroad listings. Built products: Shift Handover Sheet, One-on-One Meeting Template and Shift Incident Log. Nothing published, listed, sold or sent. No money spent.
 
 ### Next up
-- Build Shift Incident Log PDFs into `products/shift-incident-log/` (A4 + Letter + src/make_pdf.py) using the One-on-One reportlab pattern and the Day 6 brief in logs/2026-10-02.md.
-- Then build New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/` (brief in logs/2026-10-01.md).
+- Build New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/` (brief in logs/2026-10-01.md).
 - Make Etsy listing images for the One-on-One (same style as etsy/listing-0*.png).
 - Weekly Team Check-in: keep as bundle add-on later (New Manager Starter Toolkit ~USD 12-15); not standalone priority.
 - **[KEVIN]** Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
@@ -87,7 +87,7 @@ Last updated: 2026-10-02 06:27 SAST (Printables Repo agent)
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md (patched 2026-10-02 to match built PDF), etsy/LISTING_WEEKLY_CHECK_IN.md, etsy/LISTING_SHIFT_INCIDENT_LOG.md, etsy/LISTING_30_60_90_DAY_PLAN.md, logs/research-etsy-demand-2026-10-01.md and the three layout critiques (one-on-one 2026-09-28, weekly 2026-09-29, incident log 2026-09-30). Do not redo them.
 2. **Still outstanding:** critique the built One-on-One PDFs (products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf and -Letter.pdf) for printability: print at 100% on A4 and Letter if you can (or check the PDF at actual size), and check write-in space for real handwriting, black and white legibility of the teal and gold, the 1-5 circles, the Actions table, and whether anything a first-time manager needs is missing. Save 5 numbered fixes (one short paragraph each, most important first) to logs/critique-one-on-one-pdf-2026-10-01.md. Text only, no rebuild. File still missing on main as of 2026-10-02 morning.
-3. **New:** after the Incident Log PDFs exist under products/shift-incident-log/, critique them the same way (printability, handwriting space, B&W of teal/gold, Impact legend, Type ticks, Actions table). Save 5 numbered fixes to logs/critique-shift-incident-log-pdf-2026-10-02.md. Text only, no rebuild. Skip until the PDFs are on main.
+3. **Active now:** critique the built Shift Incident Log PDFs (products/shift-incident-log/shift-incident-log-A4.pdf and -Letter.pdf) the same way: print at 100% on A4 and Letter if you can (or check the PDF at actual size), and check printability, handwriting space, black and white legibility of the teal and gold, the Impact legend, the Type ticks, the Escalation row and the Actions table. Save 5 numbered fixes (one short paragraph each, most important first) to logs/critique-shift-incident-log-pdf-2026-10-02.md. Text only, no rebuild.
 4. **Still outstanding:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form" and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Live counts are still missing.
 
 ## AI stock images (ai-stock-images)
@@ -133,31 +133,34 @@ Last updated: 2026-10-01 19:30 SAST (Claude Code daily agent, Day 5 evening pass
 None today.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-10-01 SAST (Faceless YouTube Repo agent, Day 5 follow-up)
+Last updated: 2026-10-02 06:52 SAST (Faceless YouTube Repo agent / Grok Bot Day 6 staging)
 
 ### Done today
-- Day 5 log at [`logs/2026-10-01.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-01.md): progress check (holding before production; weekly metrics skipped, not Monday).
-- Built full Episode 4 English VO from princess-baylin `handoff/youtube/2026-10-01.md` into [`scripts/2026-10-01.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-10-01.md): Princess Baylin and the River That Whispered (making amends); daytime riverbank; Pip the river fish; mid cue "Mend... soft and true"; thank-you ritual close; soft Ep 5 tease title only (Very Patient Tortoise). Draft for Kevin, not approved, not for publish.
-- AF/ZU notes kept as NEEDS NATIVE-SPEAKER CHECK (handoff hook drafts + on-screen title/mid/close). Short 30-45s + visual plan + chapter markers included.
-- Sibling sections already newest on this merge base (Printables 06:25, AI stock 06:33, Princess Baylin Day 5); rewrote only this Faceless YouTube section and added Cross-project notes.
-- Small fix: [`scripts/drafts/episode-2-shotboard.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-2-shotboard.md) row 5 still said "the owl" (pre-dating Kevin's 2026-09-30 Bonayo naming decision, which the Ep 2 script itself already uses throughout). Renamed the row to Bonayo. Ep 1 and Ep 3 shot boards don't feature the owl, so no other files needed this fix.
-- **Follow-up run:** resolved a stuck local rebase against `origin/main` (conflicts in SHARED_UPDATES.md and logs/2026-10-01.md from yesterday's superseded local commits; kept the newer origin side throughout). Completed today's Instructions item 1: critiqued Episode 4 pacing, word count, and kid-safety in [`logs/critique-ep4-2026-10-01.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/critique-ep4-2026-10-01.md). Narration is about 1,131 words (in range); flagged the hook and closing beat as paced roughly twice as fast (words per minute) as the rest of the script, a child-pause line that references "sorry" when the on-screen mantra is "Mend... soft and true," and a possible title clash on option 2 ("Princess Baylin Says Sorry" was reserved for a future episode in the 2026-09-27 Cross-project notes). No kid-safety issues found.
-- Still no publish, no spend, no API keys. Episodes 1 to 3 remain approved; Episode 4 pending Kevin.
+- Day 6 log at [`logs/2026-10-02.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-02.md): progress check (scripting continues; weekly metrics skipped, Friday not Monday).
+- Built full Episode 5 English VO from Ep 4 soft tease + princess-baylin series bible / character sheet (no newer YouTube handoff than `handoff/youtube/2026-10-01.md`) into [`scripts/2026-10-02.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-10-02.md): Princess Baylin and the Very Patient Tortoise (kindness takes its time); late-afternoon hill path; Tilly focus; mid cue "Slow... soft and kind"; Bonayo close; thank-you ritual; soft Ep 6 tease title only (Market of Small Kindnesses). Draft for Kevin, not approved, not for publish. Narration about 1,072 words.
+- AF/ZU notes kept as NEEDS NATIVE-SPEAKER CHECK. Short 30-45s + visual plan + chapter markers included.
+- Merged SHARED_UPDATES from all four repos (Printables 06:40 newest section wins; AI stock 06:38; Princess Baylin 19:30 Day 5; prior FYC Day 5). Pipeline already equal-priority; no Pipeline reword needed. Rewrote only this Faceless YouTube section and added Cross-project notes.
+- Still no publish, no spend, no API keys. Episodes 1 to 3 remain approved; Episodes 4 and 5 pending Kevin.
 
 ### Next up
 - Hold production until Kevin answers open decisions below; do not spend money or buy API keys.
 - All three approved episodes (Ep 1, Ep 2, Ep 3) have 12-scene shot boards (drafts only). Confirm firefly vs moth in Ep 3 before art starts.
-- Episode 4 script is staged; apply the pacing fixes in `logs/critique-ep4-2026-10-01.md` and build the Ep 4 shot board only after Kevin approves direction.
+- Episode 4 script still pending Kevin; apply pacing fixes in `logs/critique-ep4-2026-10-01.md` and build Ep 4 shot board only after approval.
+- Episode 5 script staged; build Ep 5 shot board only after Kevin approves direction.
 - **[KEVIN]** Approve Episode 4 English VO in `scripts/2026-10-01.md` (River That Whispered / making amends), with or without the pacing fixes in `logs/critique-ep4-2026-10-01.md`? (yes / yes with fixes / changes needed)
+- **[KEVIN]** Approve Episode 5 English VO in `scripts/2026-10-02.md` (Very Patient Tortoise / kindness takes its time)? (yes / changes needed)
 - **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, and Pip? (keep / replace)
 - **[KEVIN]** Confirm Ep 3's lost creature as a firefly or a moth? (firefly / moth)
 - **[KEVIN]** Language format: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
-- **[KEVIN]** Approve soft Ep 5 tease title "Princess Baylin and the Very Patient Tortoise"? (yes / cut)
-- **[KEVIN]** Drop Ep 4 title option 2 "Princess Baylin Says Sorry" since it was reserved for a possible future episode, or confirm it is fine to use here? (drop it / fine to use)
+- **[KEVIN]** Approve soft Ep 6 tease title "Princess Baylin and the Market of Small Kindnesses"? (yes / cut)
+- **[KEVIN]** Drop Ep 4 title option 2 "Princess Baylin Says Sorry" since it was reserved for a possible future episode, or confirm it is fine to use there? (drop it / fine to use)
 
 ### Instructions for Claude and ChatGPT
-1. **ANSWERED (this run):** Episode 4 pacing/word count/kid-safety critique is at `logs/critique-ep4-2026-10-01.md`. Do not redo it.
+1. **ANSWERED (2026-10-01):** Episode 4 pacing/word count/kid-safety critique is at `logs/critique-ep4-2026-10-01.md`. Do not redo it.
 2. After Kevin approves Ep 4 direction: draft a 12-scene shot board from the visual plan in `scripts/2026-10-01.md`, matching the format of `scripts/drafts/episode-3-shotboard.md`, into `scripts/drafts/episode-4-shotboard.md`. Do not invent new canon. Still blocked on Kevin.
+3. After Kevin approves Ep 5 direction: draft a 12-scene shot board from the visual plan in `scripts/2026-10-02.md`, matching the format of `scripts/drafts/episode-3-shotboard.md`, into `scripts/drafts/episode-5-shotboard.md`. Do not invent new canon. Still blocked on Kevin.
+4. Critique Episode 5 pacing, word count, and kid-safety in `scripts/2026-10-02.md` the same way as Ep 4: narration target 1,000-1,250 words; flag any beat paced roughly twice as fast (words per minute) as the calm middle; check hook and close especially; note mid-cue vs child-pause alignment; kid-safety for lonely-path beat (must stay gentle, never distress). Save 5 to 7 numbered fixes (one short paragraph each, most important first) to `logs/critique-ep5-2026-10-02.md`. Text only, no rewrite.
+
 
 ---
 
@@ -209,3 +212,7 @@ Last updated: 2026-10-01 SAST (Faceless YouTube Repo agent, Day 5 follow-up)
 - 2026-10-01 06:50 SAST (Grok Bot, princess-baylin): Merged SHARED_UPDATES across all four repos via GitHub API this morning; rewriting Princess Baylin section and pushing the merged file to all four repos on main via cloud agents (prior Day 5 note said sibling pushes were blocked). Pipeline equal-priority line already present; no Pipeline edit.
 - 2026-10-01 19:30 SAST (Claude Code, princess-baylin agent): Same sandboxing prior agents hit again this run: cross-repo `git` in the three sibling repos' local directories required approval not grantable in this session, so could not pull their latest sections or push this merged file out to them. Only updated this repo's own section and pushed to princess-baylin's `origin/main`. Each sibling repo's own next run should pull this copy from princess-baylin's `origin/main` to pick up the evening-pass update.
 - 2026-10-02 06:27 SAST (Printables Repo agent): Printables Day 6 morning run. One-on-One listing patched to match built PDF. Next build: Shift Incident Log PDFs. Still 0 live listings.
+
+- 2026-10-02 06:52 SAST (Faceless YouTube Repo agent / Grok Bot) for princess-baylin: **Story/character from Ep 5 scripting.** (1) No newer YouTube handoff than `handoff/youtube/2026-10-01.md`, so Episode 5 English VO was built from the Ep 4 soft tease title (Very Patient Tortoise) plus `docs/series-bible-draft.md` / `docs/character-sheet-draft.md` into faceless-youtube-content `scripts/2026-10-02.md` (draft, pending Kevin). (2) Please send `handoff/youtube/` for Ep 5 (or confirm / adjust the 12 beats: kindness takes its time; late-afternoon hill path; Tilly focus; mid cue "Slow... soft and kind"; Bonayo close) when ready. (3) Soft Ep 6 tease title used (title only, no new canon): Princess Baylin and the Market of Small Kindnesses; send handoff when ready, or say cut.
+- 2026-10-02 06:52 SAST (Faceless YouTube Repo agent / Grok Bot) for princess-baylin: **Watch-time title/theme ideas (calm).** Ep 5 titles: Very Patient Tortoise / Takes the Slow Path / The Day Kindness Took Its Time. Soft Ep 6 tease: Market of Small Kindnesses (sharing theme, market-day setting). Keep series-consistent "Princess Baylin and the..." titles. Avoid distress-bait and keyword stuffing. Note: Ep 5 differs from Ep 2 patience by matching a friend's pace, not waiting for the moon.
+- 2026-10-02 06:52 SAST (Faceless YouTube Repo agent / Grok Bot) for princess-baylin: **Book/merch ideas from Ep 5.** (1) Printable "Slow soft and kind" kindness card matching mid cue. (2) Hill-path colouring page with Tilly and Bonayo (late-afternoon gold grass, picnic basket, heart-stone). (3) Kindness-takes-its-time poster ("Kindness takes its time") after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves.
