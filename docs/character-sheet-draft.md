@@ -44,6 +44,12 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Gentle flaw: quick to go quiet and sad rather than say what is wrong out loud.
 - Role: new friend whose home is accidentally broken by Baylin's hurrying feet; teaches Baylin that a real apology slows down and helps repair the harm.
 
+## Mallow the Market Mouse (new, Episode 6; placeholder pending Kevin)
+- Appearance: small soft market mouse with warm cream and cocoa fur, flour-dusted whiskers, a tiny apron of woven cloth, kind round eyes; keeps a warm bun stall under a soft cloth awning.
+- Catchphrase: "Small is enough."
+- Gentle flaw: so busy sharing tiny kindnesses that Mallow sometimes forgets to rest or take a turn receiving help.
+- Role: gentle market friend who shows Baylin that many small true shares warm a whole morning better than one huge rushed kindness. Placeholder name until Kevin confirms canon (same as Pip, Sleepy Moon and Quiet Star before).
+
 ## Shared colour palette (placeholder, pending a visual style guide)
 - Warm gold: #E8B94C
 - Soft sky blue: #A9C9D6
@@ -55,3 +61,4 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Kevin's confirmation of names, world and cast against the original story.
 - A proper illustrator-facing style guide once the palette above is approved or replaced.
 - Kevin's confirmation of Pip the River Fish as a recurring cast member (new in Episode 4), same as Sleepy Moon and Quiet Star before.
+- Kevin's confirmation of Mallow the Market Mouse as a recurring cast member (new in Episode 6 draft), same as Pip.
