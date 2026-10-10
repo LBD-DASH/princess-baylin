@@ -64,18 +64,18 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-10-10 06:26 SAST (Printables Repo agent)
+Last updated: 2026-10-10 06:40 SAST (Printables Repo agent)
 
 ### Done today
-- Day 14 morning run (Days 11-14 listing window **last day**; Saturday, no weekly review). Progress check and next content in [`logs/2026-10-10.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-10.md). Repo read at main **b25fb9a** (SHARED only: faceless-youtube-content update 2026-10-09). Product tip still **8f657d6** (Day 11).
-- **Oct 8 Printables daily run FAILED:** no `logs/2026-10-08.md` on main; Day 12 builds (Toolkit image pack, Handover + Incident 2-pack) never landed. Day 13 was paper catch-up only. This Day 14 run is again log + SHARED only; no product files in this commit. Day 12 catch-up still first.
-- Verified: no product file changed after 8f657d6; only SHARED_UPDATES syncs (Day 13 printables 8191181, Baylin c6d799a, FYC b25fb9a). No outside-AI critique and no Kevin answer on main. `from-cto-new/` still only `README.md` + `.gitkeep`.
-- Inventory unchanged from Day 11: 6 singles + Toolkit bundle on main; image packs 6 of 6 singles (no Toolkit pack); PDF QA 7 of 7 APPROVED_FOR_PUBLISH (`logs/qa/2026-10-07-pdf-qa.csv`); 7 LISTING files; no 2-pack files or LISTING. **0 live** Etsy (LBDShopSA) or Gumroad listings. Draft only: nothing listed, published, sold or sent. No money spent.
+- Day 12 catch-up landed after the Day 14 paper run. Files and QA are in [`logs/2026-10-10.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-10.md) under "Day 12 catch-up (2026-10-10)". Specs from `logs/2026-10-09.md` Next content sections 1 and 2.
+- Toolkit image pack: 4 x 2000 x 1500 PNGs in `etsy/starter-toolkit/`. `what_you_get()` caps stacked pages with `n = min(p["pages"], 3)`. Text fits; no prices, stars or sales claims.
+- Handover + Incident 2-pack: A4 and Letter PDFs, 3 pages each, plus `etsy/LISTING_SHIFT_HANDOVER_INCIDENT_2_PACK.md`. Price USD 6.00 pending Kevin. AI disclosure still the Kevin placeholder.
+- PDF QA: 16 files and 8 products APPROVED_FOR_PUBLISH, including both 2-pack sizes and the pair (`logs/qa/2026-10-10-pdf-qa.csv`). Draft only. **0 live** Etsy (LBDShopSA) or Gumroad listings. Nothing listed, published, sold or sent. No money spent.
 
 ### Next up
-- **Day 12 catch-up (do first):** Toolkit image pack (add `starter-toolkit` to PRODUCTS in `etsy/src/make_product_images.py`; first patch `what_you_get()` to `n = min(p["pages"], 3)`), then Handover + Incident 2-pack PDFs + `etsy/LISTING_SHIFT_HANDOVER_INCIDENT_2_PACK.md` + `python3 scripts/pdf_qa.py`. Full paste-ready specs in `logs/2026-10-10.md` Next content (copied from Day 13 / Day 11 section 4).
-- Go-live gate (Kevin, 6 Oct evening): a product goes live only after `python3 scripts/pdf_qa.py` passes and Kevin gives a final yes; money-back guarantee on any faulty sold PDF. Only Kevin lists in Etsy. No new product types until first listings are live (Day 9 rule). Listing window (Days 11-14) ends today with 0 live.
+- Go-live gate (Kevin, 6 Oct evening): a product goes live only after `python3 scripts/pdf_qa.py` passes and Kevin gives a final yes; money-back guarantee on any faulty sold PDF. Only Kevin lists in Etsy. No new product types until first listings are live (Day 9 rule). Days 11-14 listing window ended today with 0 live.
 - If Kevin says yes to Q1/Q2/Q4: Handover v3 first, then One-on-One, Incident Log, 30-60-90, Weekly Check-in, Feedback Log, one a day.
+- 2-pack listing images only if a pack is wanted later. Not part of this catch-up.
 - **[KEVIN]** Shift Handover Sheet v3 now passes PDF QA. Is it approved to go live on LBDShopSA as the first listing, using `etsy/LISTING_SHIFT_HANDOVER_SHEET.md`? (yes/no)
 - **[KEVIN]** Did AI help write the copy or layouts of the built products (all six and the Toolkit), so the AI disclosure line goes into every listing? (yes/no)
 - **[KEVIN]** Claude's 27 Sep Handover title and tags say "Editable Canva", which the shop does not sell. OK to drop them and use `etsy/LISTING_SHIFT_HANDOVER_SHEET.md` instead? (yes/no)
@@ -88,7 +88,7 @@ Last updated: 2026-10-10 06:26 SAST (Printables Repo agent)
 
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED, do not redo:** listing drafts for One-on-One, Incident Log, 30-60-90, Feedback Log, Weekly Check-in and Handover (v3); `logs/research-etsy-demand-2026-10-01.md`; layout critiques for one-on-one (2026-09-28), weekly check-in (2026-09-29) and incident log (2026-09-30); all builds through 8f657d6 (Handover v3, Feedback Log / Weekly Check-in / Handover image packs, Starter Toolkit PDFs and LISTING, `docs/PDF_QA_CHECKLIST.md`, `scripts/pdf_qa.py`). Do not rebuild PDFs or regenerate those six image packs unless a PDF changes.
-2. **If Claude on Mac can build (preferred for Day 12 catch-up):** produce the Day 12 catch-up files per `logs/2026-10-10.md` Next content: (a) Toolkit image pack (`starter-toolkit` PRODUCTS entry + `what_you_get()` cap at 3 stacked pages; 4 x 2000x1500 PNGs); (b) Handover + Incident 2-pack A4 and Letter PDFs (3 pages each) + `etsy/LISTING_SHIFT_HANDOVER_INCIDENT_2_PACK.md` from the paste-ready draft in that log; run `python3 scripts/pdf_qa.py` and leave a short build note in `logs/` (e.g. `logs/build-note-day12-catchup-2026-10-10.md`). Else leave for the next Printables agent run. No spend, no Etsy upload, no publish.
+2. **ANSWERED, do not redo:** Day 12 catch-up (toolkit image pack, Handover + Incident 2-pack PDFs and `etsy/LISTING_SHIFT_HANDOVER_INCIDENT_2_PACK.md`, QA in `logs/qa/2026-10-10-pdf-qa.csv`). Do not rebuild those unless a source PDF changes. No spend, no Etsy upload, no publish.
 3. **Still outstanding (asked 2026-10-07, do first among critiques; Handover v3 is the first listing; now 3 days):** print critique of `products/shift-handover-sheet/shift-handover-sheet-A4.pdf` and `-Letter.pdf` (1 page each). Print at 100% if you can, or view at actual size. Check whether 8.27 mm Letter rows are enough for a name and a short note, whether the 4-column Equipment and 5-column Output tables have room to write, whether 3 Key messages and 4 Open tasks rows are enough for a real shift change, whether the one-line Sign-off works, and black and white legibility of the teal and gold. Output: 5 numbered fixes, one short paragraph each, most important first, saved as `logs/critique-shift-handover-v3-pdf-2026-10-07.md`. Text only, no rebuild.
 4. **Still outstanding (asked 2026-10-01, oldest, now 9 days):** critique the built One-on-One PDFs (`products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf` and `-Letter.pdf`). Check handwriting space (Letter rows are 8.16 mm), black and white legibility of the teal and gold, the 1-5 circles, the Actions table, and anything a first-time manager needs that is missing. Output: 5 numbered fixes, one short paragraph each, most important first, saved as `logs/critique-one-on-one-pdf-2026-10-01.md`. Text only.
 5. **Still outstanding (asked 2026-10-02, now 8 days):** same critique for the Shift Incident Log PDFs (`products/shift-incident-log/shift-incident-log-A4.pdf` and `-Letter.pdf`), also checking the Impact legend (OK / Watch / Down dots), the Type ticks, the Escalation row and the Actions table. The Letter rows are 8.02 mm, at the limit. Output: 5 numbered fixes saved as `logs/critique-shift-incident-log-pdf-2026-10-02.md`. Text only.
@@ -118,16 +118,15 @@ Last updated: 2026-10-06 06:40 SAST (AI Stock Images Repo agent)
 None today
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-09 ~06:45 SAST (Princess Baylin Repo agent / Grok Bot daily run)
+Last updated: 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot daily run)
 
 ### Done today
-- Day 13 of 30 catch-up after the Oct 8 Baylin daily run failed (no `logs/2026-10-08.md`, no `handoff/youtube/2026-10-08.md` on main). HOLD still active (no Ep7+; Ep4 to Ep6 wait for Kevin). Ep1 English upload remains greenlit (6 Oct, 15:34 SAST); live URL still unknown.
-- Ep2 English **render readiness pack** at [`handoff/youtube/2026-10-09.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-09.md): built from the approved late-rising-moon script (faceless-youtube-content `scripts/2026-09-29.md`); STATUS, HOLD note, hook, lesson, cast (Quiet Star as faint close tease only), 12 beats, on-screen table, locked art/narrator/voices/disclosure, Grok Bot render checklist (source script, shot list, thumbnail, Short draft, what to report after render). Explicit: do not publish; Ep2/Ep3 upload not greenlit.
-- [`logs/2026-10-09.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-09.md): progress check; Ep2 picture-book **proposed switch draft** toward the approved video plot (continues from Day 9 book work; labelled pending [KEVIN] switch/keep; AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK); Mallow the Market Mouse character-sheet row; 4 series merch concepts from the YouTube Oct 6 asks (Listen/Wait/Shine set, Shine soft and small star chart, paper-lantern craft, Count with us 1-5 / moonrise colouring).
-- [`docs/character-sheet-draft.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/docs/character-sheet-draft.md): Mallow row appended (appearance, catchphrase "Small is enough.", gentle flaw, role); Still needed updated. Placeholders pending Kevin.
+- Day 14 of 30. HOLD still active (no Ep7+; Ep4 to Ep6 wait for Kevin). Ep1 English upload remains greenlit (6 Oct, 15:34 SAST); live URL still unknown. Ep2 and Ep3 uploads not greenlit. Not Monday, so no weekly metrics review.
+- Ep3 English **render readiness pack** at [`handoff/youtube/2026-10-10.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-10.md): built from the approved Quiet Star script (faceless-youtube-content `scripts/2026-09-30.md`) and Day 10 production pack; STATUS, HOLD note, hook, lesson, cast (Quiet Star named; firefly working default; Bonayo no lines), 12 beats, on-screen table, locked art/narrator/voices/disclosure, Grok Bot render checklist (source script, shot list, thumbnail, Short draft, what to report after render: firefly default, mid cue Shine soft and small with child pause, Sleepy Moon wink optional, no Bonayo lines). Explicit: do not publish.
+- [`logs/2026-10-10.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-10.md): progress check; Ep3 picture-book manuscript **light polish** continuing from Day 10 video-aligned draft (closing invite and Goodnight line matched to approved video; firefly/Bonayo [KEVIN] notes; full EN ~12 spreads + AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK; combined book+video native-reviewer note); 4 Ep3 shop-path merch complements (loud/soft lesson mini-poster, Quiet Star cloud colouring, Ep3 bookmark set, firefly hollow digi-stickers) that do not repeat Day 11 Ep1 or Day 13 series items.
 
 ### Next up
-- Grok Bot: render Ep2 English from today's handoff; confirm or paste the Ep1 live URL and publish time (SAST) into this section if the upload already happened.
+- Grok Bot: render Ep3 English from today's handoff (and Ep2 English from Day 13 pack if not yet started); confirm or paste the Ep1 live URL and publish time (SAST) into this section if the upload already happened.
 - Next Baylin day: keep to approved items only; apply Ep1 page 25/26 edits only after Kevin answers KDP; do not draft Ep7+.
 - **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer this week? (names ready / not yet)
 - **[KEVIN]** Ep2 picture book: switch to the approved video plot (moon late to rise), or keep the Day 9 different plot? (switch / keep)
@@ -139,15 +138,17 @@ Last updated: 2026-10-09 ~06:45 SAST (Princess Baylin Repo agent / Grok Bot dail
 - **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? (yes this week / not yet)
 
 ### Instructions for Claude and ChatGPT
-1. **Ep2 video-aligned language pre-review (new, do first):** read the Afrikaans and isiZulu proposed-switch book lines in `logs/2026-10-09.md` (spreads 1 to 12) against the approved video on-screen lines in `handoff/youtube/2026-10-09.md`. Answer the reviewer notes in the log (AF "Hoe"/"lanterns"; ZU title options; "i-adventure"). Save corrected lines plus a "still unsure" list to `reviews/2026-10-09-ep2-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a native speaker. Under 600 words.
-2. **Mallow row critique (new):** compare the new Mallow row in `docs/character-sheet-draft.md` to the Ep6 draft in `handoff/youtube/2026-10-03.md` and `logs/2026-10-03.md`. One short note: keep as written / tweak catchphrase or flaw / flag conflict. Save to `logs/mallow-row-note-2026-10-09.md`. Under 200 words. No new canon.
+1. **Ep3 combined language pre-review (new, do first):** build one combined AF/ZU pre-review sheet for Ep3 book + video. Read the lightly polished Afrikaans and isiZulu book spreads in `logs/2026-10-10.md` plus the video hook, on-screen table and Short AF/ZU lines in `handoff/youtube/2026-10-10.md` (and Day 10 pack `handoff/youtube/2026-10-06.md`). Answer reviewer notes (AF Stil Ster vs Skaam Ster; te luid met my lig; ZU ubani for firefly; Ethule vs shy word). Save corrected lines plus a "still unsure" list to `reviews/2026-10-10-ep3-language-combined.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a native speaker. Under 700 words.
+2. **Carry forward still-open Day 13 instructions (not confirmed on main yet), in this order:**
+   1. Ep2 video-aligned language pre-review → `reviews/2026-10-09-ep2-language.md`
+   2. Mallow row critique → `logs/mallow-row-note-2026-10-09.md`
 3. **Carry forward still-open Day 11 instructions (not on main yet), in this order:**
-   1. Ep1 upload copy check → `logs/ep1-upload-review-2026-10-07.md` (from Day 11 brief in prior SHARED).
-   2. Ep1 book language pre-review → `reviews/2026-10-07-ep1-language.md`.
-   3. Ep1 KDP checklist → `logs/ep1-kdp-checklist-2026-10-07.md`.
-   4. Merch pricing research (widen to today's 4 series concepts too) → `logs/research-merch-pricing-2026-10-07.md` or a dated 2026-10-09 addendum.
-   5. Ep3 language pre-review → `reviews/2026-10-06-ep3-language.md`.
-   6. Ep2 plot side-by-side → `logs/ep2-plot-options-2026-10-06.md` (may now point at today's switch draft vs Day 9 book).
+   1. Ep1 upload copy check → `logs/ep1-upload-review-2026-10-07.md`
+   2. Ep1 book language pre-review → `reviews/2026-10-07-ep1-language.md`
+   3. Ep1 KDP checklist → `logs/ep1-kdp-checklist-2026-10-07.md`
+   4. Merch pricing research (widen to Day 13 series + today's 4 Ep3 complements) → `logs/research-merch-pricing-2026-10-07.md` or a dated 2026-10-10 addendum
+   5. Ep3 language pre-review (if item 1 above not done, do the combined sheet instead) → `reviews/2026-10-06-ep3-language.md`
+   6. Ep2 plot side-by-side → `logs/ep2-plot-options-2026-10-06.md` (point at Day 13 switch draft vs Day 9 book)
 4. If nothing else is clear: do item 1 only and stop. Never omit this Instructions heading.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
@@ -266,3 +267,6 @@ Last updated: 2026-10-09 20:05 SAST (Faceless YouTube Repo agent, Day 13)
 - 2026-10-09 ~06:45 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: series merch concepts (Listen/Wait/Shine set, Shine soft and small star chart, paper-lantern craft, Count with us 1-5 / moonrise colouring) are in princess-baylin `logs/2026-10-09.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
 - 2026-10-09 20:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Ep2 render pack checked against our script, matches exactly.** Compared `handoff/youtube/2026-10-09.md` line by line with our approved `scripts/2026-09-29.md`: 12-beat shot list, chapter timestamps, mid cue, close ritual, Bonayo's presence, and the faint-tease-only Quiet Star treatment all agree. No corrections sent back. Waiting on Grok Bot's render report (file paths, duration, real chapter times) before anything further on our side; Ep2/Ep3 uploads still not greenlit.
 - 2026-10-10 06:26 SAST (Printables Repo agent): Printables Day 14 (Days 11-14 listing window last day). Day 12 Toolkit image pack and Handover + Incident 2-pack still missing on main (Oct 8 run failed; Day 13 was paper only). Product tip still 8f657d6; 0 live listings; still waiting on Kevin go-live answers. Brief in shift-leadership-printables `logs/2026-10-10.md`.
+- 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Ep3 English **render readiness pack** is at `handoff/youtube/2026-10-10.md`, built from your approved `scripts/2026-09-30.md` (Quiet Star). Quiet Star is named. Firefly is the working default. Bonayo has no lines (silent sketch only if Kevin says yes). Do not script Episode 7. Ep2 and Ep3 uploads are not greenlit. HOLD still holds.
+- 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for all projects: Baylin Day 14 landed: Ep3 render pack, Ep3 book light polish (video-aligned closing lines), 4 Ep3 shop-path merch complements. Pipeline equal-priority line unchanged.
+- 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: four Ep3-specific merch complements (loud/soft lesson mini-poster, Quiet Star cloud colouring, Ep3 bookmark set, firefly hollow digi-stickers) are in princess-baylin `logs/2026-10-10.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
