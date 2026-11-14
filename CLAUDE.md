@@ -64,6 +64,7 @@ Kevin approved the 100-video plan and its eleven decisions, then said "You decid
 **Delegation.** Claude decides the remaining story, script, slate and production questions for Princess Baylin and records each one in `logs/`. A script Claude marks approved is cleared for art and the English render. The rules for every run above are unchanged: an agent never publishes, uploads, posts, sends messages or spends money. Two gates stay with Kevin: he watches each finished video before it is made public, and no Afrikaans or isiZulu line goes live without a named native-speaker reviewer. The original story is still canon: when it reaches `assets/story/`, check the slate against it.
 
 **Working rules that follow from the plan.**
+- New episode scripts, and the handoffs for new episodes, are written by Claude, two a week in slate order (procedure: faceless-youtube-content `docs/weekly-script-run.md`). The daily agent does not write them. It works on the books, merch, reviews, shot boards and the status file.
 - Before writing or changing a story, read `docs/100-video-slate.md`. No two episodes share a lesson, a calm cue or a new friend, and no story shape is used more than four times.
 - A story must not put Baylin through the same situation and outcome as an earlier episode. In particular, she does not open by racing ahead and close by slowing down again.
 - When a script is written or a video ships, update the row in `docs/100-video-slate.csv` and `docs/100-video-slate.md` in the same commit.

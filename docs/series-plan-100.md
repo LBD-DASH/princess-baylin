@@ -127,6 +127,8 @@ Decisions Claude made under the delegation on 14 November (detail in `logs/2026-
 - Bonayo's changing line is brought forward to Episodes 5 and 6 ("Well walked", "Well shared"), because neither had been rendered.
 - The Calm Minute Short replaces the older trailer-style Short cut for every episode, including Episodes 1 to 3.
 - The first viewer-facing chapter of every episode is named for the story, not "Hook".
+- Episode 3 gets the silent Bonayo sketch in its last shot, with no new lines.
+- New episode scripts are written by Claude, two a week in slate order. The daily repo agents do not write them.
 - Two gates stay with Kevin: he watches each finished video before it is made public, and no Afrikaans or isiZulu line goes live without a named native-speaker reviewer.
 - No money is spent and nothing is posted by an agent.
 
@@ -137,13 +139,14 @@ Decisions Claude made under the delegation on 14 November (detail in `logs/2026-
 - [ ] Name one Afrikaans and one isiZulu reviewer
 - [ ] Watch each finished video before it goes public
 - [ ] Confirm who uploads to the channel: Grok Bot, or Kevin by hand
+- [ ] Say whether Claude should run a weekly scheduled task that writes the next two scripts
 
 ## Next 14 days
 
 - [x] Sat 14 Nov. Decisions approved. The slate, this plan, Episodes 4 to 8 and the first eight Calm Minute scripts are in the repos. Grok Bot briefed to render Episodes 2 and 3
 - [ ] Mon 16 Nov. Share the original story and name the reviewers. Owner: Kevin
 - [ ] Wed 18 Nov. Report on the Episode 2 and 3 renders and on upload access to the channel. Owner: Grok Bot
-- [ ] Mon 23 Nov. Scripts for Episodes 9 and 10. Owner: Claude
+- [ ] Mon 23 Nov. Scripts for Episodes 9 and 10. Owner: Claude, on Kevin's word or a weekly scheduled run
 - [ ] Tue 24 Nov. Episode 1 relaunch push: fresh thumbnail, description check, first parent reel
 - [ ] Fri 27 Nov. Episode 2 public, once Kevin has watched it
 - [ ] Sun 29 Nov. The Rain Song goes out if a melody is ready. If not, the songs move back a fortnight. Owner: Kevin
