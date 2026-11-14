@@ -5,7 +5,7 @@ Approved by Kevin on 2026-11-14 SAST. One hundred videos over 20 weeks from Mond
 ## How to use this file
 
 - `docs/100-video-slate.csv` holds the same rows with every column. Agents read the CSV. When a script is written or a video ships, change the `status` and `script_file` cells in the CSV and the matching line here, in the same commit.
-- Kevin's working copy is a Claude Sheet: https://claude.ai/artifact/7Ya621WZhDPUNAjpAvdJGV (private to Kevin). If the two disagree, the Sheet wins on dates and status, because Kevin edits it by hand.
+- Kevin's working copy is a private Claude Sheet. If the two disagree, the Sheet wins on dates and status, because Kevin edits it by hand.
 - Status values, in order: Idea, Script drafted, Script approved, In production, Ready to publish, Live.
 - Every cast and place name except Baylin and Bonayo is a placeholder until Kevin and the author check the slate against the original story. Afrikaans and isiZulu names need the native-speaker check like everything else.
 - No two episodes share a lesson, a calm cue or a new friend. The 40 stories use 18 story shapes and none is used more than 4 times, so the channel never puts Baylin through the same situation and outcome on a repeated template. Keep that true when a row changes.

@@ -1,6 +1,6 @@
 # Princess Baylin Diaries: 100-video series plan
 
-Approved by Kevin on 2026-11-14 SAST. Written by Claude. Kevin's working copies are a Claude doc (https://claude.ai/artifact/2D4aBDd5S2Db2aaHq3KzGA) and a Claude Sheet of the slate (https://claude.ai/artifact/7Ya621WZhDPUNAjpAvdJGV); both are private to Kevin. The slate itself is in `docs/100-video-slate.md` and `docs/100-video-slate.csv`.
+Approved by Kevin on 2026-11-14 SAST. Written by Claude. Kevin's working copies are a private Claude doc and a private Claude Sheet of the slate. The slate itself is in `docs/100-video-slate.md` and `docs/100-video-slate.csv`.
 
 ## The call
 
