@@ -1,5 +1,7 @@
 # Princess Baylin: Trilingual Fairy-Tale YouTube Series (English, Afrikaans, isiZulu)
 > **Start here:** read [SHARED_UPDATES.md](SHARED_UPDATES.md) for the status of all four sister projects, and write your update back into it.
+>
+> **The plan (approved by Kevin, 14 Nov 2026):** [docs/series-plan-100.md](docs/series-plan-100.md) and the 100-video slate in [docs/100-video-slate.md](docs/100-video-slate.md). The decisions of that day are in [CLAUDE.md](CLAUDE.md). Where this README and the plan disagree, the plan is newer.
 
 _Repo: `princess-baylin`. Side venture, separate from YardOps, 6HN and LBD. Background research: `blackvault/new-income-ideas-2026-09-27.md` (27 Sep 2026)._
 
