@@ -16,7 +16,7 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 
 ## Bonayo the Owl (confirmed canon, not a placeholder)
 - Appearance: a wise old owl who lives high in the old fig tree; round, soft-sounding call ("Hoo-hoo").
-- Catchphrase: "Well listened, Princess Baylin."
+- Catchphrase: "Well listened, Princess Baylin." in Episode 1. From Episode 5 the line follows the episode's lesson: "Well walked" (Ep 5), "Well shared" (Ep 6), "Well thanked" (Ep 7), "Well stayed" (Ep 8). In every Calm Minute Short he says the matching two words and "Goodnight."
 - Gentle flaw: not yet shown; appears briefly at the close of each episode so far.
 - Role: wakes at nightfall to mark the end of the day's lesson and send Baylin off to sleep. isiZulu: uBonayo. Afrikaans: Bonayo. Confirmed canon by Kevin, 2026-09-30; never leave this owl unnamed and never use another owl name.
 
@@ -50,6 +50,22 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 - Gentle flaw: so busy sharing tiny kindnesses that Mallow sometimes forgets to rest or take a turn receiving help.
 - Role: gentle market friend who shows Baylin that many small true shares warm a whole morning better than one huge rushed kindness. Placeholder name until Kevin confirms canon (same as Pip, Sleepy Moon and Quiet Star before).
 
+## Wick the Hedgehog (new, Episode 7; placeholder)
+- Appearance: a small hedgehog who carries a tall reed with no flame on it; careful paws; goes pink to the tips of his prickles when he is thanked.
+- Catchphrase: "One name. One true thing."
+- Gentle flaw: he would rather let a friend find something out than tell them, even when telling would be quicker.
+- Role: the lantern keeper of Lantern Night. He tends the hundred paper lanterns that light only for a thank-you with a name in it.
+
+## The Grandmother Tree (Episode 1, and the friend of Episode 8; placeholder)
+- Appearance: the old fig tree at the edge of the garden, wider than three doors and older than the palace. A kindly face is suggested in the bark and leaves, never scary. The Rainbird perches in her branches and Bonayo lives in her hollow.
+- Voice: "a voice like quiet wood". Her leaves move when there is no wind.
+- Catchphrase: "Giving is what I do."
+- Gentle flaw: she gives all year (shade, figs, a branch, a hollow) and never asks anyone to stay.
+- Role: in Episode 1 she holds the hum of the rain song. In Episode 8 she is the friend nobody can wrap a gift for, and Baylin gives her an afternoon.
+
+## Friends of Episodes 9 to 40
+Named, one per episode, in `docs/100-video-slate.md`. All are placeholders drawn from English, Afrikaans and isiZulu. Each gets a section here when its script is written. The Afrikaans and isiZulu names: NEEDS NATIVE-SPEAKER CHECK.
+
 ## Shared colour palette (placeholder, pending a visual style guide)
 - Warm gold: #E8B94C
 - Soft sky blue: #A9C9D6
@@ -60,5 +76,4 @@ All names, appearances and traits below are placeholders invented so the Day 1/D
 ## Still needed
 - Kevin's confirmation of names, world and cast against the original story.
 - A proper illustrator-facing style guide once the palette above is approved or replaced.
-- Kevin's confirmation of Pip the River Fish as a recurring cast member (new in Episode 4), same as Sleepy Moon and Quiet Star before.
-- Kevin's confirmation of Mallow the Market Mouse as a recurring cast member (new in Episode 6 draft), same as Pip.
+- Decided by Kevin on 2026-11-14: Tilly, Sunhill, Rainbird, Pip and Mallow are kept unless the original story says otherwise. Wick and the Grandmother Tree follow the same rule.
