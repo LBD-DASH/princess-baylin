@@ -118,63 +118,51 @@ Last updated: 2026-10-06 06:40 SAST (AI Stock Images Repo agent)
 None today
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot daily run)
+Last updated: 2026-11-14 10:50 SAST (Claude, in chat with Kevin)
 
 ### Done today
-- Day 15 of 30. HOLD still active (no Ep7+; Ep4 to Ep6 wait for Kevin). Ep1 English long upload remains greenlit (6 Oct, 15:34 SAST); live URL still unknown. Ep2 and Ep3 uploads not greenlit. Ep1 Short needs its own Kevin yes. Not Monday, so no weekly metrics review.
-- Ep1 Short English **upload readiness pack** at [`handoff/youtube/2026-10-11.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-11.md): cut from the approved Ep1 long render; STATUS, HOLD note, hook, lesson, cast (no Bonayo), Short beats with render chapter windows, English upload copy, locked art/narrator/voices/disclosure, Grok Bot cut/upload checklist. Explicit: do not publish until Kevin greenlights the Short.
-- [`logs/2026-10-11.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-11.md): progress check; Ep2 picture-book manuscript **light polish** of the Day 13 proposed video-aligned switch draft (late-rising moon; still pending [KEVIN] switch/keep; Spread 12 Goodnight/invite tightened toward approved video close; full EN ~12 spreads + AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK); 4 Ep2 shop-path merch complements (Wait soft and slow patience card, moonrise silver-puddle colouring, Bonayo bare-branch mini print, Sit and wait flat-stone activity sheet) that do not repeat Day 11 Ep1, Day 13 series, or Day 14 Ep3 items.
+- Kevin approved the 100-video plan and its eleven decisions, and handed the remaining Princess Baylin decisions to Claude. **The hold on Episode 7 onward is lifted.** Decisions: [`CLAUDE.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/CLAUDE.md). Plan: [`docs/series-plan-100.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/docs/series-plan-100.md). Slate: [`docs/100-video-slate.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/docs/100-video-slate.md) and [`docs/100-video-slate.csv`](https://github.com/LBD-DASH/princess-baylin/blob/main/docs/100-video-slate.csv).
+- Slate: 100 videos over 20 weeks from Monday 23 November 2026. 40 story episodes, 40 Calm Minute Shorts, 10 Sunhill Songs, 10 Sleepy-Time Collections. 18 story shapes, none used more than four times.
+- [`handoff/youtube/2026-11-14.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-11-14.md) covers Episode 7 (Thank-You Lantern) and Episode 8 (Gift That Could Not Be Wrapped). Series bible and character sheet updated (Wick the Hedgehog, the Grandmother Tree, Bonayo's changing line).
+- Channel check through the YouTube Data API: **Episode 1 is live and public** at https://www.youtube.com/watch?v=BrF_v5ACTxo. 1 subscriber, 1 video, 2 views. Detail and the decisions Claude made under the delegation: [`logs/2026-11-14.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-11-14.md).
+- Grok Bot was asked today, by Kevin's approval, to render Episodes 2 and 3 in English. Nothing was published, uploaded or posted by Claude. No money spent.
 
 ### Next up
-- Grok Bot: if Ep1 long is not live yet, upload from the Day 11 pack and paste the live URL + publish time (SAST) here; cut/upload Ep1 Short from today's handoff **only after** Kevin says yes; render Ep2 English from Day 13 pack and Ep3 English from Day 14 pack.
-- Next Baylin day: keep to approved items only; apply Ep1 page 25/26 edits only after Kevin answers KDP; do not draft Ep7+.
-- **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer this week? (names ready / not yet)
-- **[KEVIN]** Paste Ep1 live URL and publish time (SAST) if already up? (URL / still pending)
-- **[KEVIN]** Post a 30-45s Ep1 Short cut from the render, English only? (yes / not yet)
-- **[KEVIN]** Ep2 picture book: switch to the approved video plot (moon late to rise), or keep the Day 9 different plot? (switch / keep)
-- **[KEVIN]** Greenlight the Ep2 and Ep3 English uploads once rendered? (yes both / one at a time / not yet)
-- **[KEVIN]** Ep3 lost creature: firefly or moth? Silent Bonayo sketch in the Ep3 final shot? (firefly / moth; yes / no)
-- **[KEVIN]** Approve or hold Episode 4, Episode 5 and Episode 6? (approve / hold / changes needed, each)
-- **[KEVIN]** Ep1 KDP: free upscale path, author/copyright name, ISBN route (KDP free or NLSA)? (choices)
+- Grok Bot: render Episode 2 from `handoff/youtube/2026-10-09.md` and Episode 3 from `handoff/youtube/2026-10-10.md` (the lost creature is a firefly), English only, at one calm pace. Paste file paths, durations and real chapter times here. Nothing goes public until Kevin has watched it.
+- Monday 23 November: handoff and scripts for Episode 9 (Knot That Grew) and Episode 10 (Day That Did Not Want to End), then two a week in slate order.
+- Align the Episode 2 picture-book manuscript with the approved video plot (decided on 14 November: switch). Ep1 page 25/26 edits still wait for the KDP answers.
 - **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? (yes this week / not yet)
+- **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
+- **[KEVIN]** Have you read the 40 premises in `docs/100-video-slate.md` with the author and struck any that are not her world? (done / not yet)
+- **[KEVIN]** Does Grok Bot upload to the channel from here on, or do you upload by hand? (Grok Bot / Kevin)
+- **[KEVIN]** Ep1 KDP: free upscale path, author/copyright name, ISBN route (KDP free or NLSA)? (choices)
 
 ### Instructions for Claude and ChatGPT
-1. **Ep1 Short copy pre-check (new, do first):** read `handoff/youtube/2026-10-11.md` upload copy (title, description, tags, end card, AI disclosure). Check kid-safety tone, made-for-kids fit, no links, no overclaim, and that Short yes is treated as separate from the long-form greenlight. Output under 500 words saved as `logs/ep1-short-upload-review-2026-10-11.md`. Text only. No publish, no cut, no upload.
-2. **Ep2 switch-draft language pre-review (new):** read the lightly polished Afrikaans and isiZulu Ep2 spreads in `logs/2026-10-11.md` (Day 13 switch draft polish). Answer leftover reviewer notes (AF Hoe vs Hoe-hoe; lanterns vs lampies; ZU title Eleleyo / elele / Ezozelayo; Huu vs Hoo-hoo; quiet-adventure wording). Save corrected lines plus a "still unsure" list to `reviews/2026-10-11-ep2-switch-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a native speaker. Under 700 words.
-3. **Carry forward still-open Day 14/13/11 items (not confirmed on main yet), briefly:**
-   - Day 14: Ep3 combined AF/ZU pre-review → `reviews/2026-10-10-ep3-language-combined.md`
-   - Day 13: Ep2 video-aligned language pre-review → `reviews/2026-10-09-ep2-language.md`; Mallow row critique → `logs/mallow-row-note-2026-10-09.md`
-   - Day 11: Ep1 upload copy check → `logs/ep1-upload-review-2026-10-07.md`; Ep1 book language → `reviews/2026-10-07-ep1-language.md`; Ep1 KDP checklist → `logs/ep1-kdp-checklist-2026-10-07.md`; merch pricing (widen to Day 13 series + Day 14 Ep3 + today's 4 Ep2 complements) → `logs/research-merch-pricing-2026-10-07.md` or a dated addendum; Ep3 language (if combined sheet not done) → `reviews/2026-10-06-ep3-language.md`; Ep2 plot side-by-side → `logs/ep2-plot-options-2026-10-06.md` (point at today's polished switch draft vs Day 9 book)
-4. If nothing else is clear: do item 1 only and stop. Never omit this Instructions heading.
+1. **Closed by Kevin's decisions of 2026-11-14, do not redo or re-ask:** Episodes 4 to 6 approve or hold; placeholder names; firefly or moth; the Episode 2 book plot; language format; the Episode 7 tease; the Episode 1 live URL; a separate yes for Shorts. The Ep1 Short pack of 2026-10-11 is superseded by the Calm Minute Short SH01.
+2. Afrikaans pre-reviews of the Episode 1, 2 and 3 book text are still welcome, saved under `reviews/`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; a pre-review does not replace a native speaker. Do not draft isiZulu: that comes from the reviewer.
+3. If nothing else is clear: stop. Never omit this Instructions heading.
 
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-10-19 ~07:10 SAST (Faceless YouTube Repo agent, Day 23)
+Last updated: 2026-11-14 10:50 SAST (Claude, in chat with Kevin)
 
 ### Done today
-- Day 23 log at [`logs/2026-10-19.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-19.md): progress check plus weekly metrics review (Monday). Nothing published, so nothing to measure; recommendation is **adjust**, unlock is Kevin confirming Ep1's publish status.
-- **New input checked:** none. Pulled this repo and all three sibling repos; all already up to date. The princess-baylin agent has now missed Day 16 through 23 (eight days); no handoff or log newer than Day 15 (`handoff/youtube/2026-10-11.md`) exists. Confirmed via all three sibling copies of this file that this repo's section is the only one that has advanced since Day 15 (they still hold the Day 19 copy; this repo's own copy already had Day 22).
-- No Kevin answer has landed anywhere for any open **[KEVIN]** question. No Ep2/Ep3 render reports have landed yet either.
-- No new episode drafted (Day 8 HOLD on Ep7+ still active; Ep4-6 await Kevin). Still no publish, no spend, no API keys.
+- Kevin approved Episodes 4, 5 and 6 and lifted the hold on Episode 7 onward. The critique fixes are applied to all three, with new openings for 5 and 6 so they do not start the way 4 does. What changed and why: [`logs/2026-11-14.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-11-14.md).
+- New scripts, both approved for art and the English render: Episode 7 [`scripts/2026-11-14-ep7-thank-you-lantern.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-11-14-ep7-thank-you-lantern.md) and Episode 8 [`scripts/2026-11-14-ep8-gift-that-could-not-be-wrapped.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-11-14-ep8-gift-that-could-not-be-wrapped.md). Calm Minute Short scripts SH01 to SH08: [`scripts/calm-minute-shorts.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/calm-minute-shorts.md).
+- New: [`scripts/README.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/README.md) lists every script and its status. `scripts/check_pace.py` checks the pace of a script; Episodes 4 to 8 all print ALL OK at 90 to 118 words a minute. [`docs/channel-style-guide.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/docs/channel-style-guide.md) now holds the template from Episode 4 and the story originality rule.
+- **Episode 1 is confirmed live and public:** https://www.youtube.com/watch?v=BrF_v5ACTxo (1 subscriber, 2 views on 14 November). Nothing was published, uploaded or posted by Claude. No money spent.
 
 ### Next up
-- Hold new episode scripting until Kevin answers approve-or-hold on Episodes 4, 5 and 6. Do not spend money or buy API keys.
-- Ep 2 and Ep 3 already have 12-scene shot boards (drafts). Confirm firefly vs moth in Ep 3 before art starts.
-- Episode 4-6 shot boards only after Kevin approves direction; apply the matching critique fixes (`logs/critique-ep4-2026-10-01.md`, `-ep5-2026-10-02.md`, `-ep6-2026-10-03.md`) if he picks those paths.
-- Watch for Grok Bot's Ep2 and Ep3 render reports (file paths, duration, real chapter times) once either renders; nothing to do here until then.
-- **[KEVIN]** Was Episode 1 (long) actually published? If yes, paste the video URL and publish time (SAST) here so metrics tracking can start (the handoff asks for this too).
-- **[KEVIN]** Publish the Ep1 Short (30-45s cut from the approved render; upload-readiness pack complete in princess-baylin `handoff/youtube/2026-10-11.md`)? Separate question from the long-video yes on 6 Oct.
-- **[KEVIN]** With 23 of 30 days gone, Ep1's publish status still unconfirmed, and the princess-baylin agent now eight days behind, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
-- **[KEVIN]** Approve or hold Episode 4 (`scripts/2026-10-01.md`, River That Whispered, with or without the fixes in `logs/critique-ep4-2026-10-01.md`), Episode 5 (`scripts/2026-10-02.md`, Very Patient Tortoise, with or without `logs/critique-ep5-2026-10-02.md`) and Episode 6 (`scripts/2026-10-03.md`, Market of Small Kindnesses, with or without `logs/critique-ep6-2026-10-03.md`)? (approve / hold / changes needed, each)
-- **[KEVIN]** Which Episode 5 mid cue wins: Baylin "Walk... soft and slow" or Faceless "Slow... soft and kind"? (Walk soft and slow / Slow soft and kind / other)
-- **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, Pip, and Mallow the Market Mouse? (keep / replace)
-- **[KEVIN]** Confirm Ep 3's lost creature as a firefly or a moth? (firefly / moth)
-- **[KEVIN]** Language format: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
-- **[KEVIN]** Keep soft Ep 7 tease title "Princess Baylin and the Thank-You Lantern" as title-only under HOLD, or cut it from Ep 6 close? (keep tease / cut)
+- Grok Bot: render Episode 2 (`scripts/2026-10-05.md`) and Episode 3 (`scripts/2026-10-06.md`) in English. Keep one calm pace: the planning timestamps in Episodes 1 to 3 are too tight, so let the video run past 10 minutes and report the real chapter times. Next in the queue: Episode 4 and the Calm Minute Shorts SH01 to SH03.
+- Monday 23 November: scripts for Episodes 9 and 10, then two a week in slate order (princess-baylin `docs/100-video-slate.md`).
+- Shot boards for Episodes 4 to 8 into `scripts/drafts/`.
+- **[KEVIN]** Have you watched the Episode 2 render, and may it go public on Friday 27 November? (yes / changes needed / not rendered yet)
+- **[KEVIN]** Does Grok Bot upload to the channel from here on, or do you upload by hand? (Grok Bot / Kevin)
+- **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
 
 ### Instructions for Claude and ChatGPT
-1. **ANSWERED:** Episode 4, 5 and 6 pacing/word count/kid-safety critiques, the channel style guide, and the episode-production checklist are all done (see `logs/critique-ep4-2026-10-01.md`, `-ep5-2026-10-02.md`, `-ep6-2026-10-03.md`, `docs/channel-style-guide.md`, `docs/episode-production-checklist.md`). Do not redo any of these.
-2. After Kevin approves Ep 4 / Ep 5 / Ep 6 direction: draft matching 12-scene shot boards into `scripts/drafts/episode-4-shotboard.md`, `episode-5-shotboard.md` and `episode-6-shotboard.md` from each script's visual plan. Still blocked on Kevin. Do not invent new canon.
+1. **Closed by Kevin's decisions of 2026-11-14, do not redo or re-ask:** every open question in the 2026-10-19 entry (Episode 1 publish status, Episodes 4 to 6 approval, the Episode 5 cue, placeholders, firefly or moth, language format, the Episode 7 tease, the Day-30 target).
+2. Draft 13-scene shot boards for Episodes 4 to 8 into `scripts/drafts/episode-N-shotboard.md`, from each script's visual plan, in the format of `scripts/drafts/episode-3-shotboard.md`. Do not invent new canon.
 
 ---
 
@@ -272,3 +260,6 @@ Last updated: 2026-10-19 ~07:10 SAST (Faceless YouTube Repo agent, Day 23)
 - 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Ep1 Short English upload readiness pack is at `handoff/youtube/2026-10-11.md`. Long Ep1 remains greenlit (6 Oct); Short needs a separate Kevin yes. Ep2 and Ep3 uploads are not greenlit. Do not script Episode 7. HOLD still holds.
 - 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for all projects: Baylin Day 15: Ep1 Short pack + Ep2 book light polish (Day 13 switch draft) + 4 Ep2 shop-path merch complements. Pipeline equal-priority line unchanged.
 - 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: four Ep2-specific merch complements (Wait soft and slow patience card, moonrise silver-puddle colouring, Bonayo bare-branch mini print, Sit and wait flat-stone activity sheet) are in princess-baylin `logs/2026-10-11.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
+- 2026-11-14 10:50 SAST (Claude, in chat with Kevin) for all projects: Kevin approved the Princess Baylin 100-video plan and lifted the hold on Episode 7 onward. Plan and slate: princess-baylin `docs/series-plan-100.md` and `docs/100-video-slate.md`. Decisions: `CLAUDE.md` in both Baylin repos. Episode 1 is confirmed live at https://www.youtube.com/watch?v=BrF_v5ACTxo. The Printables and AI Stock Images sections are unchanged.
+- 2026-11-14 10:50 SAST (Claude, in chat with Kevin) for faceless-youtube-content: the handoff for Episodes 7 and 8 is at princess-baylin `handoff/youtube/2026-11-14.md`. Both scripts are already written in your repo. Next handoff (Episodes 9 and 10) is due Monday 23 November.
+- 2026-11-14 10:50 SAST (Claude, in chat with Kevin) for princess-baylin: **Book and merch ideas from Episodes 7 and 8.** (1) A printable paper lantern to colour and hang, with a line for "one name, one true thing". (2) A Giving Day sheet of gifts that cannot be wrapped (an afternoon, a story, a slow hug) for a child to cut out and give. (3) A Grandmother Tree colouring page. All drafts until Kevin approves a shop route.
